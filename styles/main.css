@@ -24,6 +24,29 @@ body{
 
 /*FORMULAIRE BOOK*/
 /*formulaire*/
+body{
+  background-image: url(../images/hall/hallDAccueil.jpg);
+  font-family: "Avenir", sans-serif;
+  font-size: 12px;
+}
+select.container{
+  width:200;
+  height: 15px;
+  background:#F2F2F2;
+}
+
+input{
+  border-color: #707070;
+  border-width: thin;
+  height: 12px;
+}
+
+section.background{
+  width:460px;
+  background-color: #f2f2f2;
+  border-radius: 1%;
+}
+
 section.formulaire{
   width:400px;
   height:500px;
@@ -55,55 +78,82 @@ firstFlexbox input{
   flex-direction:column;
 }
 
-
 .resto input{
   margin:10px;
 }
+
 .choice{
 justify-content: space-between;
 }
-.round{
-  position : relative;
+
+/* Customize the label (the container) */
+.choiceContainer {
+  display: flex;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-.round label{
+
+/* Hide the browser's default checkbox */
+.choiceContainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
   background-color: white;
-  border: 1px solid #707070;
-  border-radius:50%;
-  position:absolute;
-  height:15px;
-  left:0;
-  top:0;
-  width:15px;
+  border-color:#707070;
 }
 
-.round label:after{
-  border:2px solid #707070;
-  border-top:none;
-  border-right:none;
-  content:"";
-  height:4px;
-  left:5px;
-  opacity:0;
-  position:absolute;
-  top:6px;
-  tansform:rotate(-45deg);
-  width:10px;
+/* On mouse-over, add a grey background color */
+.choiceContainer:hover input ~ .checkmark {
+  background-color: #ccc;
 }
 
-.round input[type="checkbox"]{
-  visibility:hidden;
+/* When the checkbox is checked, add a blue background */
+.choiceContainer input:checked ~ .checkmark {
+  background-color: #2196F3;
 }
 
-.round input[type="checkbox"]:checked+label{
-  background-color:#66bb6a;
-  border-color:#66bb6a;
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
 }
 
-.round input[type="checkbox"]::checked+label:after{
-  opacity:1;
+/* Show the checkmark when checked */
+.choiceContainer input:checked ~ .checkmark:after {
+  display: block;
 }
 
-
+/* Style the checkmark/indicator */
+.choiceContainer .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
 /*Fourth Flexbox*/
 
 .fourthFlexbox{
@@ -123,26 +173,4 @@ justify-content: space-between;
   width:400px;
 }
 
-/* Couleurs etc*/
-select.container{
-  width:200;
-  height: 15px;
-  background:#F2F2F2;
-}
-input{
-  border-color: #707070;
-  border-width: thin;
-  height: 12px;
-}
-
-section.background{
-  width:460px;
-  background-color: #f2f2f2;
-  border-radius: 1%;
-}
-body{
-  background-image: url(../images/landscape.png);
-  font-family: "Avenir", sans-serif;
-  font-size: 12px;
-}
 /*FIN FORMULAIRE BOOK*/
