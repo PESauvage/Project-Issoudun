@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Titre de ma page</title>
+    <meta name="description" contents="description" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="scripts/main.js">
+    </script>
+  </head>
+  <body>
+    <head>
+
+    </head>
+    <main>
+      <section class="background container">
+                  <form class="" action="book.html" method="post">
+                    <section class="firstFlexobx">
+                      <section class="item">
+                        <label for="subject">Salle</label><br>
+                        <select name="room" id="subject">
+                          <option value="$500">Salle de réception</option>
+                          <option value="$1000" selected="selected">Amphithéâtre Pierre Selleron</option>
+                          <option value="$1500">Salle de réunion</option>
+                          <option value="$2000">Hall d'accueil</option>
+                          <option value="$2000">Espace numérique</option>
+                        </select>
+                      </section>
+                      <section class="item">
+                        <label for="nameinput">Nom</label><br>
+                        <input class="main" type="text" name="nom" id="nameinput">
+                      </section>
+                      <section class="item">
+                        <label for="nameinput">Prénom</label><br>
+                        <input class="main" type="text" name="prenom" id="nameinput">
+                      </section>
+                      <section class="item">
+                        <label for="subject">Numéro de téléphone</label><br>
+                        <input class="main" type="text" name="subject" id="subjectinput">
+                      </section>
+                      <section id="email" class="item">
+                        <label for="email">E-mail</label><br>
+                        <input class="main" type="text" name="email" id="emailinput">
+                      </section>
+                    </section>
+                    <section class="secondFlexbox">
+                      <section class="item">
+                        <label for="nameinput">Date</label><br>
+                        <input class="main" type="text" name="nom" id="nameinput">
+                      </section>
+                      <section class="item">
+                        <label for="nameinput">Horaires</label><br>
+                        <input class="main" type="text" name="prenom" id="nameinput">
+                      </section>
+                      <section class="item">
+                        <label for="nameinput">Nombre de participants</label><br>
+                        <input class="main" type="text" name="prenom" id="nameinput">
+                      </section>
+                    </section>
+                    <section  class="secondFlexbox">
+
+                    </section>
+                    <section class="thirdFlexbox">
+                      <section class="item book">
+                        <p>Envisagez-vous une restauration ?</p>
+                        <div class="choice">
+                          <div class="round">
+                            <input type="checkbox" id="checkbox" >
+                            <label for="checkbox">Oui, une restauration chaude</label>
+                            </div>
+                          <section class="resto restoType">
+                            <div class="round">
+                              <input class="round" type="checkbox" id="cold" name="froid">
+                              <label for="chaud">Oui, une restauration froide</label>
+                            </div>
+                          </section>
+                          <section class="resto restoItems">
+                            <div class="round">
+                              <input class="round" type="checkbox" id="coffee" name="cafe">
+                              <label for="cafe">Un accueil café</label>
+                            </div>
+                            <div class="round">
+                              <input class="round" type="checkbox" id="cocktail" name="cocktail">
+                              <label for="cocktail">Un cocktail</label>
+                            </div>
+                            <div class="round">
+                              <input class="round" type="checkbox" id="no" name="non">
+                              <label for="non">Non</label>
+                            </div>
+                          </section>
+                        </div>
+                      </section>
+                    </section>
+                    <section class="fourthFlexbox">
+                      <section class="item message">
+                        <label for="remarks">Avez-vous des remarques ?</label>
+                        <textarea class="writeHere"name="description" rows="8" cols="8"></textarea>
+                      </section>
+                    </section>
+                    <section class="ok">
+                      <input type="submit" value="Ok">
+                    </section>
+                  </form>
+              </section>
+            </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
