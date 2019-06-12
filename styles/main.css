@@ -24,11 +24,6 @@ body{
 
 /*FORMULAIRE BOOK*/
 /*formulaire*/
-
-/*first Flexbox*/
-firstFlexbox input{
-  width:300px;
-}
 section.formulaire{
   width:400px;
   height:500px;
@@ -36,6 +31,7 @@ section.formulaire{
   align-items: center;
   color:black;
 }
+
 
 section.item{
   display:flex;
@@ -48,18 +44,23 @@ label{
   margin-right : 10px;
 }
 
+/*first Flexbox*/
+firstFlexbox input{
+  width:300px;
+}
+
+/*third flexbox*/
 .book{
   display:flex;
   flex-direction:column;
 }
 
 
-.choice{
-justify-content: space-between;
-}
-
 .resto input{
   margin:10px;
+}
+.choice{
+justify-content: space-between;
 }
 .round{
   position : relative;
@@ -101,6 +102,8 @@ justify-content: space-between;
 .round input[type="checkbox"]::checked+label:after{
   opacity:1;
 }
+
+
 /*Fourth Flexbox*/
 
 .fourthFlexbox{
@@ -119,6 +122,7 @@ justify-content: space-between;
 .writeHere{
   width:400px;
 }
+
 /* Couleurs etc*/
 select.container{
   width:200;
