@@ -2,26 +2,38 @@
 /*FORMULAIRE BOOK*/
 /*formulaire*/
 body{
-  background-image: url(../images/hall/hallDAccueil.jpg);
+  color:black;
+  background-color:white;
+  background-image:url(../images/hall/hallDAaccueil.jpg);
   font-family: "Avenir", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 500;
 }
+
+form.formContainer{
+  margin-left: 80px;
+}
+
 select.formContainer{
-  width:200;
   height: 15px;
   background:#F2F2F2;
+  margin-left: 50px;
 }
 
 input{
-  border-color: #707070;
-  border-width: thin;
-  height: 12px;
+  border: solid #707070 thin;
+  border-radius: 5px;
+  height: 18px;
+  width:200px;
+  margin-left: 50px;
 }
 
 section.background{
-  width:460px;
+  width:600px;
   background-color: #f2f2f2;
-  border-radius: 1%;
+  border-radius: 2%;
+  display:flex;
+  justify-content: center;
 }
 
 section.formulaire{
@@ -40,16 +52,30 @@ section.item{
 }
 
 label{
-  width:160px;
-  margin-right : 10px;
-}
-
-/*first Flexbox*/
-firstFlexbox input{
   width:200px;
 }
 
+/*first Flexbox*/
+section.firstFlexobx{
+  padding-top: 15px;
+  padding-left: 70px;
+}
+.firstFlexbox input{
+  width:200px;
+}
+
+/*second Flexbox*/
+section.secondFlexbox{
+  padding-top: 15px;
+  padding-left: 70px;
+}
+
 /*third flexbox*/
+section.thirdFlexbox{
+  padding-top: 15px;
+  padding-left: 70px;}
+
+
 .book{
   display:flex;
   flex-direction:column;
@@ -140,10 +166,16 @@ justify-content: space-between;
   transform: rotate(45deg);
 }
 /*Fourth Flexbox*/
+section.fourthFlexbox{
+  padding-top: 15px;
+  padding-left: 70px;
+  display:flex;
+  margin-bottom: 30px;
+}
+
 
 .fourthFlexbox{
-  display:flex;
-  margin-bottom: 10px;
+
 }
 .message{
   display:flex;
@@ -166,4 +198,13 @@ justify-content: space-between;
   justify-content: center;
   margin-right: 50px;
 }
+
+.bookingButton{
+  background-color: #FF9300;
+  color:white;
+  border-color:#FF9300;
+  padding: 5px;
+
+}
+
 /*FIN FORMULAIRE BOOK*/
