@@ -6,7 +6,7 @@ body{
   background-color:white;
   background-image:url(../images/hall/hallDAaccueil.jpg);
   font-family: "Avenir", sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 .column{
@@ -61,6 +61,7 @@ body{
 
 .blocTwo{
   flex-direction: column;
+  justify-content: center;
 }
 
 select#subject{
@@ -248,7 +249,6 @@ section.fourthFlexbox{
 .booking{
   display: flex;
   margin-top : 20px;
-  margin-left:380px;
 
 }
 
@@ -260,6 +260,14 @@ section.fourthFlexbox{
   width:150px;
   height: 200px:
 
+
+}
+
+@media screen (min-width:960) and (max-width:1280px){
+
+body{
+  font-size:0.8rem;
+}
 
 }
 

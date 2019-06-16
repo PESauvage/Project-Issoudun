@@ -5,18 +5,32 @@
     <title>Titre de ma page</title>
     <meta name="description" contents="description" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/book.css">
     <script src="scripts/main.js">
     </script>
   </head>
   <body>
     <head>
-
+      <nav>
+          <div class="logo">
+              <h4>Centre Congrès</h4>
+          </div>
+          <ul class="nav-links">
+              <li><a href="#">Nos Salles</a></li>
+              <li><a href="#">Réserver</a></li>
+              <li><a href="#">Nous contacter</a></li>
+          </ul>
+          <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+          </div>
+      </nav>
     </head>
     <main class="container">
       <section class="container blocOne">
-        <img class="arrow" src="../icons/Arrow.svg" alt="Arrow"></img>
+        <img class="arrow" src="../images/Arrow.png" alt="Arrow"></img>
         <section class="container text">
           <section class="container title">
             <span class="orange"></span>
@@ -118,16 +132,12 @@
                   </section>
                 </form>
 
-
             </section>
-            <section class="booking">
+            <section class="booking container">
              <input class="bookingButton" type="submit" value="Réserver">
             </section>
-          </section>
-
-        </section>
-
     </main>
     <footer></footer>
+    <script src="nav.js"></script>
   </body>
 </html>
