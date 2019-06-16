@@ -1,6 +1,6 @@
 
 /*FORMULAIRE BOOK*/
-/*formulaire*/
+
 body{
   color:black;
   background-color:white;
@@ -9,18 +9,24 @@ body{
   font-size: 16px;
   font-weight: 500;
 }
-
-form.formContainer{
-  margin-left: 80px;
+.column{
+  display:flex;
+  flex-direction: column;
 }
 
-select.formContainer{
+/*formulaire*/
+form.formContainer{
+  margin-left: 180px;
+}
+
+select#subject{
   height: 15px;
   background:#F2F2F2;
-  margin-left: 50px;
+  margin-left: 0px;
+  width:200px;
 }
 
-input{
+.form input{
   border: solid #707070 thin;
   border-radius: 5px;
   height: 18px;
@@ -44,7 +50,12 @@ section.formulaire{
   color:black;
 }
 
-
+#subject{
+  margin-left:50px;
+  width:200px;
+  background-color: white;
+  border: solid #707070 thin;
+}
 section.item{
   display:flex;
   margin:10px;
@@ -188,7 +199,7 @@ section.fourthFlexbox{
 
 }
 .writeHere{
-  width:400px;
+  width:450px;
 }
 
 
