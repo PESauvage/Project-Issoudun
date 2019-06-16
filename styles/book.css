@@ -12,14 +12,14 @@ body{
   font-family: "Avenir", sans-serif;
   font-size: 0.8rem;
   font-weight: 500;
-  overflow: hidden;
+  wwidth:100%;
 }
 .column{
   display:flex;
   flex-direction: column;
 }
 
-.Container{
+.container{
   display:flex;
   justify-content: center;
 
@@ -42,7 +42,7 @@ body{
 }
 
 .arrow img{
-  margin-left:550px;
+  margin-left:600px;
   margin-bottom:-100px;
 }
 
@@ -80,22 +80,31 @@ body{
 /*formulaire*/
 
 .blocTwo{
+  display: flex;
   flex-direction: column;
   justify-content: center;
   width:300px;
 }
 
+form.formContainer{
+  margin-left: 50px;
+}
+
 select#subject{
   height: 15px;
   background:#F2F2F2;
-  margin-left: 0px;
+  width:200px;
+  background-color: white;
+  border: solid #707070 thin;
+  }
 }
 
-.form input{
+input{
   border: solid #707070 thin;
   border-radius: 5px;
   height: 18px;
-  width:200px;
+  margin-left: 60px;
+  justify-content: center;
 }
 
 section.background{
@@ -106,32 +115,23 @@ section.background{
   border-radius: 2%;
   display:flex;
   flex-direction: column;
+  justify-content: center;
 }
 
-
-
-#subject{
-  margin-left:50px;
-  width:200px;
-  background-color: white;
-  border: solid #707070 thin;
-}
 
 section.item{
   display:flex;
   margin:10px;
+  width:500px;
 }
 
 label{
-  width:250px;
+  width:180px;
 }
 
 /*first Flexbox*/
 section.firstFlexobx{
   padding-top: 15px;
-}
-.firstFlexbox input{
-  width:200px;
 }
 
 /*second Flexbox*/
@@ -261,7 +261,7 @@ section.fourthFlexbox{
 .booking{
   display: flex;
   margin-top : 20px;
-
+  width:520px;
 }
 
 .bookingButton{
