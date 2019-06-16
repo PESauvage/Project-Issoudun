@@ -14,16 +14,59 @@ body{
   flex-direction: column;
 }
 
+.container{
+  display:flex;
+  justify-content: center;
+
+}
+
+/*text*/
+
+.blocOne{
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.arrow{
+  height:100px;
+  width:50px;
+  color: white;
+}
+
+.text{
+  flex-direction: column;
+  color: white;
+}
+
+.title{
+  margin-left: 20px;
+}
+.textTitle{
+  font-family: 'CaviarDreams'
+}
+
+.smallText{
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+.orange{
+  background-color: #FF9300;
+  width:2px;
+  height:30px;
+  margin:10px;
+  margin-top: 20px;
+}
+
 /*formulaire*/
-form.formContainer{
-  margin-left: 180px;
+
+.blocTwo{
+  flex-direction: column;
 }
 
 select#subject{
   height: 15px;
   background:#F2F2F2;
   margin-left: 0px;
-  width:200px;
 }
 
 .form input{
@@ -39,11 +82,10 @@ section.background{
   background-color: #f2f2f2;
   border-radius: 2%;
   display:flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 section.formulaire{
-  width:400px;
   height:500px;
   margin:0 auto;
   align-items: center;
@@ -63,7 +105,7 @@ section.item{
 }
 
 label{
-  width:200px;
+  width:250px;
 }
 
 /*first Flexbox*/
@@ -195,8 +237,7 @@ section.fourthFlexbox{
 }
 
 .message{
-  display:flex;
-
+  justify-content: center;
 }
 .writeHere{
   width:450px;
@@ -206,8 +247,9 @@ section.fourthFlexbox{
 /*Réserver*/
 .booking{
   display: flex;
-  justify-content: center;
-  margin-right: 50px;
+  margin-top : 20px;
+  margin-left:380px;
+
 }
 
 .bookingButton{
@@ -215,6 +257,9 @@ section.fourthFlexbox{
   color:white;
   border-color:#FF9300;
   padding: 5px;
+  width:150px;
+  height: 200px:
+
 
 }
 
