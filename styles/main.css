@@ -22,6 +22,7 @@ body{
 }
 
 
+
 /*NAV*/
 *{
     margin: 0px;
@@ -128,4 +129,47 @@ nav{
 }
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
+}
+
+
+/*FOOTER*/
+
+footer{
+  background-color: #F2F2F2;
+  color:#707070;
+  height: 150px;
+  width:200%;
+  font-size: 0.6rem;
+  font-weight: lighter;
+  box-sizing: border-box;
+  margin:0;
+}
+.center{
+  display:flex;
+}
+
+h6{
+  font-size: 0.7rem;
+}
+
+a{
+  outline: none;
+  text-decoration: none;
+}
+
+a:visited{
+  color:#707070;
+}
+
+.footerDiv{
+  flex-direction: column;
+  justify-content: flex-start;
+  width:200px;
+}
+
+.footerContainer{
+  margin:20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 300px;
 }

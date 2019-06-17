@@ -261,6 +261,7 @@ section.fourthFlexbox{
 .booking{
   display: flex;
   margin-top : 20px;
+  margin-bottom: 20px;
   width:520px;
 }
 
@@ -270,7 +271,9 @@ section.fourthFlexbox{
   border-color:#FF9300;
   padding: 5px;
   width:150px;
-  height: 200px:
+  height: 300px:
+  font-size:0.8rem;
+  text-transform: uppercase;
 }
 
 @media screen (min-width:960) and (max-width:1280px){
@@ -282,3 +285,40 @@ body{
 }
 
 /*FIN FORMULAIRE BOOK*/
+
+/*Footer*/
+
+footer{
+  background-color: #F2F2F2;
+  color:#707070;
+  height: 150px;
+  width:200%;
+  font-size: 0.6rem;
+  font-weight: lighter;
+}
+
+h6{
+  font-size: 0.7rem;
+}
+
+a{
+  outline: none;
+  text-decoration: none;
+}
+
+a:visited{
+  color:#707070;
+}
+
+.footerDiv{
+  flex-direction: column;
+  justify-content: flex-start;
+  width:200px;
+}
+
+.footerContainer{
+  margin:20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+}
