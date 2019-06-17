@@ -6,7 +6,7 @@
     <meta name="description" contents="description" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="../styles/main.css">
-    <link rel="stylesheet" href="../styles/book.css">
+    <link rel="stylesheet" href="../styles/contacts.css">
     <script src="scripts/main.js">
     </script>
   </head>
@@ -36,11 +36,9 @@
         <section class="container text">
           <section class="container title">
             <span class="orange"></span>
-            <h2 class="textTitle">RÉSERVEZ UNE SALLE</h2>
+            <h2 class="textTitle">CONTACTEZ NOUS</h2>
           </section>
-          <p class="smallText">Organisez votre journée dans un lieu unique !<br>
-          De l’accueil au dîner de gala, de la salle de réception à l’amphithéâtre, tout est réuni pour la réussite de votre journée.<br>
-          Pour plus de renseignements, contactez nous ! </p>
+          <p class="smallText">Vous avez une question ? N’hésitez pas à nous contacter via ce formulaire, ou par téléphone au : 02 54 03 32 68. </p>
         </section>
       </section>
       <section class="blocTwo container">
@@ -48,87 +46,21 @@
           <form class="formContainer " action="index.php" method="post">
               <section class="firstFlexobx">
                 <section class="item">
-                  <label for="subject">Salle</label><br>
-                  <select name="room" id="subject">
-                    <option value="1">Salle de réception</option>
-                    <option value="2" selected="selected">Amphithéâtre Pierre Selleron</option>
-                    <option value="3">Salle de réunion</option>
-                    <option value="4">Hall d'accueil</option>
-                    <option value="5">Espace numérique</option>
-                  </select>
-                </section>
-                <section class="item">
                   <label for="nameinput">Nom</label><br>
                   <input class="main" type="text" name="name" id="nameinput">
                 </section>
                   <section class="item">
                    <label for="nameinput">Prénom</label><br>
                    <input class="main" type="text" name="firstname" id="firstnameinput">
-                  </section>
-                  <section class="item">
-                   <label for="subject">Numéro de téléphone</label><br>
-                   <input class="main" type="text" name="phonenumber" id="subjectinput">
-                  </section>
+                 </section>
                   <section id="email" class="item">
                     <label for="email">E-mail</label><br>
                     <input class="main" type="text" name="email" id="emailinput">
                   </section>
                 </section>
-
-                <section class="secondFlexbox">
-                  <section class="item">
-                    <label for="nameinput">Date</label><br>
-                    <input class="main" type="text" name="date" id="nameinput">
-                  </section>
-                  <section class="item">
-                    <label for="nameinput">Horaires</label><br>
-                    <input class="main" type="text" name="hours" id="nameinput">
-                  </section>
-                  <section class="item">
-                   <label for="nameinput">Nombre de participants</label><br>
-                   <input class="main" type="text" name="number" id="nameinput">
-                  </section>
-                  </section>
-                  <section class="thirdFlexbox">
-
-                   <section class="item book">
-                    <p>Envisagez-vous une restauration ?</p>
-                    <div class="choice">
-                      <div class="restoChoice">
-
-                        <label class="choiceContainer">Oui, une restauration chaude
-                         <input type="checkbox" checked="checked">
-                         <span class="checkmark"></span>
-                        </label>
-
-                        <label class="choiceContainer">Oui, une restauration froide
-                          <input type="checkbox">
-                          <span class="checkmark"></span>
-                        </label>
-
-                      </div>
-                      <div class="secondChoices">
-                        <label class="choiceContainer">Un accueil café
-                          <input type="checkbox">
-                          <span class="checkmark"></span>
-                        </label>
-
-                        <label class="choiceContainer">Un cocktail
-                          <input type="checkbox">
-                          <span class="checkmark"></span>
-                        </label>
-
-                        <label class="choiceContainer">Non
-                          <input type="checkbox">
-                          <span class="checkmark"></span>
-                        </label>
-
-                      </div>
-                    </section>
-                  </section>
                   <section class="fourthFlexbox">
                     <section class="item message">
-                      <label for="remarks">Avez-vous des remarques ?</label>
+                      <label for="remarks">Votre message</label>
                       <textarea type ="text" class="writeHere"name="message" rows="8" cols="8"></textarea>
                     </section>
                   </section>
