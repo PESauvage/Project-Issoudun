@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Slider *//* Slider *//* Slider *//* Slider *//* Slider *//* Slider *//* Slider *//* Slider *//* Slider *//* Slider *//* Slider *//* Slider */
+
+.carousel-container{
+    width: 55%;
+    margin-left: 5%; /*POSITION X DU SLIDER*/
+    overflow: hidden;
+    position: relative;
+    border: 2.5px solid black;
+    top: 120px; /*POSITION Y DU SLIDER*/
+}
+
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 600px; /*HAUTEUR DU SLIDER*/
+}
+
+.carousel-slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#prevBtn{
+    height: 25px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    cursor: pointer;
+    border: none;
+    background: url("images/left-arrow.svg") no-repeat left; /* Ne pas oublier de changer en fonction de la position de ce fichier et du dossier de référence */
+}
+
+#nextBtn{
+    height: 25px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    cursor: pointer;
+    border: none;
+    background: url("images/right-arrow.svg") no-repeat right; /* Ne pas oublier de changer en fonction de la position de ce fichier et du dossier de référence */
+}
+
+@media screen and (max-width:1050px){
+    .carousel-container{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .carousel-container{
+        width: 90%;
+        height: 300px;
+    }
+}
+/* Slider END *//* Slider END *//* Slider END *//* Slider END *//* Slider END *//* Slider END *//* Slider END *//* Slider END */
