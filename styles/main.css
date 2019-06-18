@@ -142,14 +142,20 @@ footer{
   background-color: #F2F2F2;
   color:#707070;
   height: 150px;
-  width:200%;
+  width:100%;
   font-size: 0.6rem;
   font-weight: lighter;
   box-sizing: border-box;
   margin:0;
 }
-.center{
+
+.footerContainer{
   display:flex;
+  justify-content: flex-start;
+  width:100;
+  margin-top:20px;
+}
+
 }
 
 h6{
@@ -167,16 +173,9 @@ a:visited{
 
 .footerDiv{
   flex-direction: column;
-  justify-content: flex-start;
   width:200px;
 }
 
-.footerContainer{
-  margin:20px;
-  display: flex;
-  justify-content: center;
-  margin-left: 300px;
-}
 
 /* CARD HOMEPAGE */
 

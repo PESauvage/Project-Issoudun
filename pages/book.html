@@ -45,16 +45,16 @@
       </section>
       <section class="blocTwo container">
         <section class="background formContainer ">
-          <form class="formContainer " action="book.html" method="post">
+          <form class="formContainer " action="mail.php" method="post">
               <section class="firstFlexobx">
                 <section class="item">
                   <label for="subject">Salle</label><br>
                   <select name="room" id="subject">
-                    <option value="1">Salle de réception</option>
-                    <option value="2" selected="selected">Amphithéâtre Pierre Selleron</option>
-                    <option value="3">Salle de réunion</option>
-                    <option value="4">Hall d'accueil</option>
-                    <option value="5">Espace numérique</option>
+                    <option value="salle_de_reception">Salle de réception</option>
+                    <option value="amphitheatre_pierre_selleron" selected="selected">Amphithéâtre Pierre Selleron</option>
+                    <option value="salle_de_reunion">Salle de réunion</option>
+                    <option value="hall_d_accueil">Hall d'accueil</option>
+                    <option value="espace_numerique">Espace numérique</option>
                   </select>
                 </section>
                 <section class="item">
@@ -66,7 +66,7 @@
                    <input class="main" type="text" name="firstname" id="firstnameinput">
                   </section>
                   <section class="item">
-                   <label for="subject">Numéro de téléphone</label><br>
+                   <label for="phonenumber">Numéro de téléphone</label><br>
                    <input class="main" type="text" name="phonenumber" id="subjectinput">
                   </section>
                   <section id="email" class="item">
@@ -77,7 +77,7 @@
 
                 <section class="secondFlexbox">
                   <section class="item">
-                    <label for="nameinput">Date</label><br>
+                    <label for="date">Date</label><br>
                     <input class="main" type="text" name="date" id="nameinput">
                   </section>
                   <section class="item">
@@ -85,7 +85,7 @@
                     <input class="main" type="text" name="hours" id="nameinput">
                   </section>
                   <section class="item">
-                   <label for="nameinput">Nombre de participants</label><br>
+                   <label for="number">Nombre de participants</label><br>
                    <input class="main" type="text" name="number" id="nameinput">
                   </section>
                   </section>
@@ -122,26 +122,24 @@
                           <input type="checkbox">
                           <span class="checkmark"></span>
                         </label>
-
                       </div>
                     </section>
                   </section>
                   <section class="fourthFlexbox">
                     <section class="item message">
                       <label for="remarks">Avez-vous des remarques ?</label>
-                      <textarea class="writeHere"name="description" rows="8" cols="8"></textarea>
+                      <textarea type ="text" class="writeHere"name="message" rows="8" cols="8"></textarea>
                     </section>
                   </section>
-                </form>
+                </section>
+                <section class="booking container">
+                 <input class="bookingButton" type="submit" value="RESERVER" name="send">
+                </section>
+              </form>
 
-            </section>
-            <section class="booking container">
-             <input class="bookingButton" type="submit" value="Réserver">
-            </section>
     </main>
-    <footer class="center">
-      <section class="footerContainer container">
-        <div class="footerDiv container">
+    <footer  class="footerContainer">
+      <div class="footerDiv container">
           <h6>Contacts</h6>
           <span>congres@issoudun.fr</span>
           <span>Fax : 0254033267</span>
@@ -150,18 +148,17 @@
           <span>Boulevard Roosevelt</span>
           <span>BP 150</span>
           <span>36105 Issoudun</span>
-        </div>
-        <div class="footerDiv container">
+      </div>
+      <div class="footerDiv container">
           <h6>À découvrir sur Issoudun</h6>
           <a href="https://www.biptv.tv/">Bip TV</a>
           <a href="https://www.ccacissoudun.tv/">Centre Culturel Albert Camus</a>
           <a href="https://www.museeissoudun.tv/">Musée de l'Hospice Saint Roch</a>
           <a href="http://www.issoudun.fr/">Site de la ville d'Issoudun</a>
-        </div>
-        <div class="footerDiv container">
+      </div>
+      <div class="footerDiv container">
           <h6><a href="#">Mentions légales</a></h6>
-        </div>
-      </section>
+      </div>
     </footer>
     <script src="nav.js"></script>
   </body>

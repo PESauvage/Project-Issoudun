@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Titre de ma page</title>
+    <meta name="description" contents="description" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/contacts.css">
+    <script src="scripts/main.js">
+    </script>
+  </head>
+  <body>
+    <head>
+      <nav>
+          <div class="logo">
+              <h4>Centre Congrès</h4>
+          </div>
+          <ul class="nav-links">
+              <li><a href="#">Nos Salles</a></li>
+              <li><a href="#">Réserver</a></li>
+              <li><a href="#">Nous contacter</a></li>
+          </ul>
+          <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+          </div>
+      </nav>
+    </head>
+    <main class="container">
+      <section class="container blocOne">
+        <section class="container arrow">
+          <img src="../images/Arrow.png" alt="Arrow"></img>
+        </section>
+        <section class="container text">
+          <section class="container title">
+            <span class="orange"></span>
+            <h2 class="textTitle">CONTACTEZ NOUS</h2>
+          </section>
+          <p class="smallText">Vous avez une question ? N’hésitez pas à nous contacter via ce formulaire, ou par téléphone au : 02 54 03 32 68. </p>
+        </section>
+      </section>
+      <section class="blocTwo container">
+        <section class="background formContainer ">
+          <form class="formContainer " action="contacts.php" method="post">
+              <section class="firstFlexobx">
+                <section class="item">
+                  <label for="nameinput">Nom</label><br>
+                  <input class="main" type="text" name="name" id="nameinput">
+                </section>
+                  <section class="item">
+                   <label for="nameinput">Prénom</label><br>
+                   <input class="main" type="text" name="firstname" id="firstnameinput">
+                 </section>
+                  <section id="email" class="item">
+                    <label for="email">E-mail</label><br>
+                    <input class="main" type="text" name="email" id="emailinput">
+                  </section>
+                </section>
+                  <section class="fourthFlexbox">
+                    <section class="item message">
+                      <label for="remarks">Votre message</label>
+                      <textarea type ="text" class="writeHere"name="message" rows="8" cols="8"></textarea>
+                    </section>
+                  </section>
+                </section>
+                <section class="booking container">
+                 <input class="bookingButton" type="submit" value="send" name="send">
+                </section>
+              </form>
+    </main>
+    <footer class="center">
+      <section class="footerContainer container">
+        <div class="footerDiv container">
+          <h6>Contacts</h6>
+          <span>congres@issoudun.fr</span>
+          <span>Fax : 0254033267</span>
+          <span>+33 2 54 03 32 61</span>
+          <span>Centre des Congrès «Champs Élysées»</span>
+          <span>Boulevard Roosevelt</span>
+          <span>BP 150</span>
+          <span>36105 Issoudun</span>
+        </div>
+        <div class="footerDiv container">
+          <h6>À découvrir sur Issoudun</h6>
+          <a href="https://www.biptv.tv/">Bip TV</a>
+          <a href="https://www.ccacissoudun.tv/">Centre Culturel Albert Camus</a>
+          <a href="https://www.museeissoudun.tv/">Musée de l'Hospice Saint Roch</a>
+          <a href="http://www.issoudun.fr/">Site de la ville d'Issoudun</a>
+        </div>
+        <div class="footerDiv container">
+          <h6><a href="#">Mentions légales</a></h6>
+        </div>
+      </section>
+    </footer>
+    <script src="nav.js"></script>
+  </body>
+</html>
