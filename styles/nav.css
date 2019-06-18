@@ -75,6 +75,15 @@ nav{
     body{
         overflow-x: hidden;
     }
+
+    nav{
+        justify-content: space-between;
+    }
+
+    .logo{
+        margin-left: 2%;
+    }
+
     .nav-links{
         position: absolute;
         right: 0px;
@@ -93,6 +102,7 @@ nav{
     }
     .burger{
         display: block;
+        margin-right: 2%;
     }
 }
 
