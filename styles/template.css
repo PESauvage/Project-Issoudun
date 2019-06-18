@@ -1,15 +1,24 @@
-.presentation{
-    width: 100%;
-    height: 100%;
-    justify-content: center;
+.container{
+    align-items: center;
+}
+
+h2{
+    font-family: 'Caviar Dreams';
+    font-size: 35px;
+    text-align: center;
+    color: #707070;
+  }
+
+.square{
+    width: 100px;
+    height: 500px;
     background-color: #F2F2F2;
-    flex-wrap: nowrap;
-    justify-content: center;
+    box-shadow: -5px 7px 5px 0px #E2E2E2;
 }
 
 .slider{
-    width: 65%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
 }
 
 .slider img{
@@ -17,9 +26,99 @@
     width: 100%;
 }
 
+.presentation{
+    width: 50%;
+    height: 500px;
+    background-color: #F2F2F2;
+    flex-wrap: nowrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 7px 5px 0px #E2E2E2;
+}
+
 .fiches{
-    width: 20%;
     padding-top: 20px;
     padding-bottom: 20px;
     justify-content: center;
+}
+
+.specs{
+    flex-wrap: nowrap;
+}
+
+.info p{
+    color: #707070;
+    margin: 0 auto;
+}
+
+.info ul{
+    color: #707070;
+    margin: 0 auto;
+}
+
+.button{
+    background-color: #FF9300;
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button a{
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1024px)
+{
+  .container{
+    width:768px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .square{
+      display: none;
+  }
+
+  .slider{
+      width: 60%;
+      height: 60%;
+  }
+
+  .presentation{
+      width: 300px;
+  }
+
+@media screen and (max-width:768px)
+{
+  .container{
+    width:100%;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .square{
+      display: none;
+  }
+
+  .slider{
+      width: 60%;
+      height: 60%;
+  }
+
+  .presentation{
+      width: 300px;
+  }
 }
