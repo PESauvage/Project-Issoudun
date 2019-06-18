@@ -143,8 +143,14 @@ footer{
   box-sizing: border-box;
   margin:0;
 }
-.center{
+
+.footerContainer{
   display:flex;
+  justify-content: flex-start;
+  width:100;
+  margin-top:20px;
+}
+
 }
 
 h6{
@@ -162,16 +168,9 @@ a:visited{
 
 .footerDiv{
   flex-direction: column;
-  justify-content: flex-start;
   width:200px;
 }
 
-.footerContainer{
-  margin:20px;
-  display: flex;
-  justify-content: center;
-  margin-left: 200px;
-}
 
 /* CARD HOMEPAGE */
 
