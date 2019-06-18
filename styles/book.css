@@ -10,9 +10,9 @@ body{
   background-position:50% 50%;
   background-size: auto;
   font-family: "Avenir", sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 500;
-  wwidth:100%;
+  width:100%;
 }
 .column{
   display:flex;
@@ -174,7 +174,7 @@ margin-top:7px;
   padding-left: 17px;
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   color: #707070;
   -webkit-user-select: none;
   -moz-user-select: none;

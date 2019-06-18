@@ -1,0 +1,47 @@
+/*CINEMA*/
+.cinema{
+  justify-content: center;
+  height:200px;
+  width:auto;
+  overflow:hidden;
+  color:white;
+  background-image:url(../images/cineBackground.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position:50% 50%;
+  background-size: auto;
+}
+
+.logoCine{
+  width:100px;
+}
+.leftPart{
+  flex-direction: column;
+  width : 200px;
+}
+
+.cineText h3{
+  font-family: 'Caviardreams';
+  font-size: 1.4rem;
+  font-weight: lighter;
+}
+
+.cineText {
+  font-family: 'helvetica';
+
+}
+
+.cineText{
+  display: flex;
+  flex-direction: column;
+}
+
+button.cineAccess{
+  background-color:none;
+  border: solid 5px white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
