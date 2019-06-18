@@ -100,10 +100,10 @@ h2{
       width: 300px;
   }
 
-@media screen and (max-width:767px)
+@media screen and (max-width:768px)
 {
   .container{
-    width: 100%;
+    width:100%;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
@@ -121,3 +121,4 @@ h2{
   .presentation{
       width: 300px;
   }
+}
