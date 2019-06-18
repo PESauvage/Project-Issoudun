@@ -14,6 +14,7 @@ body{
   font-weight: 500;
   width:100%;
 }
+
 .column{
   display:flex;
   flex-direction: column;
@@ -64,9 +65,10 @@ body{
 }
 
 .smallText{
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: lighter;
-  width: 400px;
+  width: 490px;
+  padding-left: 35px;
 }
 
 .orange{
@@ -82,7 +84,6 @@ body{
 .blocTwo{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width:300px;
 }
 
@@ -105,6 +106,8 @@ input{
   height: 18px;
   margin-left: 60px;
   justify-content: center;
+  width: 200px;
+  padding-right:20px;
 }
 
 section.background{
@@ -115,7 +118,6 @@ section.background{
   border-radius: 5%;
   display:flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 
@@ -126,7 +128,7 @@ section.item{
 }
 
 label{
-  width:180px;
+  width:200px;;
 }
 
 /*first Flexbox*/
@@ -135,15 +137,16 @@ section.firstFlexobx{
 }
 
 /*second Flexbox*/
+
 section.secondFlexbox{
-  padding-top: 15px;
+  padding-top:5px;
 }
+
 
 /*third flexbox*/
 section.thirdFlexbox{
-  padding-top: 30px;
+  padding-top:5px;
 }
-
 
 .book{
   display:flex;
@@ -238,7 +241,6 @@ margin-top:7px;
 }
 /*Fourth Flexbox*/
 section.fourthFlexbox{
-  padding-top: 15px;
   display:flex;
   margin-bottom: 30px;
 }
@@ -249,9 +251,6 @@ section.fourthFlexbox{
   justify-content: center;
 }
 
-.message{
-  justify-content: center;
-}
 .writeHere{
   width:350px;
 }
@@ -260,7 +259,7 @@ section.fourthFlexbox{
 /*Réserver*/
 .booking{
   display: flex;
-  margin-top : 20px;
+  margin-top : 10px;
   margin-bottom: 20px;
   width:520px;
 }
