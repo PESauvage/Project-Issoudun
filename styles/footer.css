@@ -1,0 +1,39 @@
+footer, footer div, footer ul, footer li, footer h3, footer p, footer a{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+footer{
+    min-height: 8vh;
+    background-color:rgb(235, 235, 235);
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    color:rgb(0, 0, 0, 0.9);
+    font-family: Helvetica;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+footer div{
+    display: flex;
+    padding: 10px 10px;
+    align-items: flex-start;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.9);
+}
+
+footer ul{
+    padding-inline-start: 0;
+}
+
+footer h2{
+    font-size: 20px;
+}
