@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 354.09 366.86" style="enable-background:new 0 0 354.09 366.86;" xml:space="preserve">
+	 viewBox="0 0 354.1 366.9" style="enable-background:new 0 0 354.1 366.9;" xml:space="preserve">
 <style type="text/css">
-	.st0{stroke:#000000;stroke-miterlimit:10;}
-	.st1{stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+	.st0{fill:#FF9300;}
+	.st1{fill:#FF9300;stroke:#FF9300;stroke-miterlimit:10;}
 </style>
-<circle class="st0" cx="167.43" cy="182.23" r="5.64"/>
-<path class="st0" d="M173.2,188.88l-1.61,1.12c-2.05,1.42-4.89,0.91-6.31-1.13l0,0c-1.42-2.05-0.91-4.89,1.13-6.31l1.61-1.12
-	c2.05-1.42,4.89-0.91,6.31,1.13h0C175.76,184.62,175.25,187.46,173.2,188.88z"/>
-<circle class="st0" cx="199.87" cy="182.69" r="5.64"/>
-<path class="st0" d="M195.54,190.36l-1.6-1.14c-2.03-1.45-2.5-4.3-1.05-6.33l0,0c1.45-2.03,4.3-2.5,6.33-1.05l1.6,1.14
-	c2.03,1.45,2.5,4.3,1.05,6.33h0C200.42,191.34,197.57,191.81,195.54,190.36z"/>
-<rect x="160.49" y="208.25" class="st0" width="48.09" height="5.24"/>
-<rect x="161.34" y="171.64" class="st0" width="48.09" height="2.52"/>
-<rect x="161.29" y="163.25" class="st0" width="48.09" height="2.52"/>
-<rect x="160.8" y="176.25" transform="matrix(6.123234e-17 -1 1 6.123234e-17 -11.8864 343.0988)" class="st0" width="9.61" height="2.49"/>
-<rect x="196.35" y="176.34" transform="matrix(6.123234e-17 -1 1 6.123234e-17 23.5654 378.7404)" class="st0" width="9.61" height="2.49"/>
-<rect x="162.49" y="167.42" transform="matrix(0.617 -0.787 0.787 0.617 -68.6555 196.2533)" class="st0" width="9.61" height="2.49"/>
-<rect x="175.42" y="167.39" transform="matrix(0.617 -0.787 0.787 0.617 -63.682 206.4184)" class="st0" width="9.61" height="2.49"/>
-<rect x="188.52" y="167.7" transform="matrix(0.617 -0.787 0.787 0.617 -58.9097 216.8404)" class="st0" width="9.61" height="2.49"/>
-<rect x="200.73" y="167.54" transform="matrix(0.617 -0.787 0.787 0.617 -54.1086 226.3973)" class="st0" width="9.61" height="2.49"/>
-<line class="st1" x1="170.07" y1="193.31" x2="172.23" y2="209.48"/>
-<line class="st1" x1="177.31" y1="188.69" x2="206.58" y2="208.71"/>
-<line class="st1" x1="170.25" y1="203.66" x2="163.3" y2="208.71"/>
-<line class="st1" x1="190.41" y1="188.99" x2="185.4" y2="192.64"/>
-<line class="st1" x1="198.26" y1="193.77" x2="197.77" y2="200.7"/>
+<circle class="st0" cx="167.4" cy="182.2" r="5.6"/>
+<path class="st0" d="M173.2,188.9l-1.6,1.1c-2.1,1.4-4.9,0.9-6.3-1.1l0,0c-1.4-2.1-0.9-4.9,1.1-6.3l1.6-1.1c2.1-1.4,4.9-0.9,6.3,1.1
+	l0,0C175.8,184.6,175.3,187.5,173.2,188.9z"/>
+<circle class="st0" cx="199.9" cy="182.7" r="5.6"/>
+<path class="st0" d="M195.5,190.4l-1.6-1.1c-2-1.4-2.5-4.3-1.1-6.3l0,0c1.4-2,4.3-2.5,6.3-1.1l1.6,1.1c2,1.4,2.5,4.3,1.1,6.3l0,0
+	C200.4,191.3,197.6,191.8,195.5,190.4z"/>
+<rect x="160.5" y="208.3" class="st0" width="48.1" height="5.2"/>
+<rect x="161.3" y="171.6" class="st0" width="48.1" height="2.5"/>
+<rect x="161.3" y="163.3" class="st0" width="48.1" height="2.5"/>
+<rect x="164.4" y="172.7" class="st0" width="2.5" height="9.6"/>
+<rect x="199.9" y="172.8" class="st0" width="2.5" height="9.6"/>
+<rect x="162.5" y="167.4" transform="matrix(0.617 -0.787 0.787 0.617 -68.6496 196.2643)" class="st0" width="9.6" height="2.5"/>
+<rect x="175.4" y="167.4" transform="matrix(0.617 -0.787 0.787 0.617 -63.675 206.4269)" class="st0" width="9.6" height="2.5"/>
+<rect x="188.5" y="167.7" transform="matrix(0.617 -0.787 0.787 0.617 -58.8967 216.8517)" class="st0" width="9.6" height="2.5"/>
+<rect x="200.7" y="167.5" transform="matrix(0.617 -0.787 0.787 0.617 -54.1017 226.4019)" class="st0" width="9.6" height="2.5"/>
+<line class="st1" x1="170.1" y1="193.3" x2="172.2" y2="209.5"/>
+<line class="st1" x1="177.3" y1="188.7" x2="206.6" y2="208.7"/>
+<line class="st1" x1="170.3" y1="203.7" x2="163.3" y2="208.7"/>
+<line class="st1" x1="190.4" y1="189" x2="185.4" y2="192.6"/>
+<line class="st1" x1="198.3" y1="193.8" x2="197.8" y2="200.7"/>
 </svg>
