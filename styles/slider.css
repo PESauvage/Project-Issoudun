@@ -32,7 +32,7 @@
     left: 5%;
     cursor: pointer;
     border: none;
-    background: url("icons/left-arrow.svg") no-repeat left; /* Ne pas oublier de changer en fonction de la position de ce fichier et du dossier de référence */
+    background: url("../icons/left-arrow.svg") no-repeat left; /* Ne pas oublier de changer en fonction de la position de ce fichier et du dossier de référence */
 }
 
 #nextBtn{
@@ -44,7 +44,7 @@
     right: 5%;
     cursor: pointer;
     border: none;
-    background: url("icons/right-arrow.svg") no-repeat right; /* Ne pas oublier de changer en fonction de la position de ce fichier et du dossier de référence */
+    background: url("../icons/right-arrow.svg") no-repeat right; /* Ne pas oublier de changer en fonction de la position de ce fichier et du dossier de référence */
 }
 
 @media screen and (max-width:1050px){
