@@ -34,17 +34,52 @@ nav{
 }
 .nav-links li{
     list-style: none;
+    text-align: center;
+    position: relative;
 }
 .nav-links a{
     color: rgba(255, 255, 255, 0.95);
     text-decoration: none;
     letter-spacing: 3px;
     font-size: 14px;
+    display: block;
+    align-items: center;
+    height: 30px;
+    display: flex;
+}
+.nav-links ul{
+    display: flex;
+    background: rgb(0, 0, 0, 0.9);
+    text-align: center;
 }
 
 .nav-links a:hover{
     padding-bottom: 10px;
     border-bottom: 2px solid #cf6f00;
+}
+
+.nav-links li:hover .submenu > li{
+    display: block;
+    top: 0px;
+    position: relative;
+}
+
+.submenu li{
+    display: none;
+    position: absolute;
+    top: 0px;
+    padding: 8px 4px;
+}
+
+.submenu li a{
+    font-size: 12px;
+}
+
+.submenu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
 }
 
 .burger{
@@ -75,15 +110,6 @@ nav{
     body{
         overflow-x: hidden;
     }
-
-    nav{
-        justify-content: space-between;
-    }
-
-    .logo{
-        margin-left: 2%;
-    }
-
     .nav-links{
         position: absolute;
         right: 0px;
@@ -102,7 +128,6 @@ nav{
     }
     .burger{
         display: block;
-        margin-right: 2%;
     }
 }
 
