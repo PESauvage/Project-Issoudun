@@ -216,6 +216,10 @@ box-shadow: 5px 7px 5px 0px #E2E2E2;
     margin-top: 40px;
 }
 
+.button:hover{
+    background: #dd8406
+}
+
 .button a{
   font-weight: bold;
   font-size: 12px;
@@ -357,6 +361,8 @@ img.logo{
 
 .cinema a:hover{
   cursor: pointer;
+  border-color: #FF9300;
+  color: #FF9300;
 }
 
 .cineText{
@@ -388,6 +394,10 @@ img.logo{
     align-items: center;
     margin-top: 4%;
     margin-bottom: 10%;
+}
+
+.button2:hover{
+  background: #dd8406
 }
 
 .button2 a{
