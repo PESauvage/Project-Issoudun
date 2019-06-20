@@ -32,6 +32,15 @@ body{
   display: flex;
 }
 
+.blocDiv{
+  margin:0% 10% 5% 10%;
+}
+
+.blocDiv>h1{
+  font-size: 50%;
+  color: #FF9300;
+}
+
 /*FOOTER*/
 
 
