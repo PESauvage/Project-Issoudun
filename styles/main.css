@@ -14,11 +14,6 @@ body{
 @font-face {
   font-family: 'Helvetica';
   src: url('../fonts/Helvetica.ttf');
-  src: url('../fonts/Helvetica-Bold.ttf');
-  src: url('../fonts/Helvetica-BoldOblique.ttf');
-  src: url('../fonts/Helvetica-Light.ttf');
-  src: url('../fonts/Helvetica-LightOblique.ttf');
-  src: url('../fonts/Helvetica-Oblique.ttf');
 }
 
 @font-face {
