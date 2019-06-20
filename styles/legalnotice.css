@@ -1,0 +1,15 @@
+.container{
+  margin: 0 auto;
+  width: 1024px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blocDiv{
+  margin:0% 15% 5% 15%;
+}
+
+h1{
+  font-size: 50%;
+  color: #FF9300;
+}
