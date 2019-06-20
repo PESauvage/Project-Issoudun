@@ -4,6 +4,7 @@ footer, footer div, footer ul, footer li, footer h3, footer p, footer a{
 }
 
 footer{
+    margin-top: 100px;
     min-height: 8vh;
     background-color:rgb(235, 235, 235);
     width: 100%;
