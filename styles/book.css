@@ -7,7 +7,7 @@ body{
   background-image:url(../images/hall/hallDAaccueil.jpg);
   background-repeat: no-repeat;
   background-attachment:fixed;
-  background-position:100%;
+  background-position:110%;
   background-size: 100%;
   font-family: "Avenir", sans-serif;
   font-size: 100%;
@@ -22,66 +22,59 @@ body{
 }
 
 .container{
+  width: 1024px;
+  margin:0 auto;
   display:flex;
-  justify-content: center;
 
 }
-
 
 /*text*/
 
 .blocOne{
   flex-direction: column;
-  margin-left: 2%;
-  width: 20%;
-  margin-bottom: 30%;
+  justify-content: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 50%;
 }
 
 .arrow{
-  width:20%;
   height:auto;
   color: white;
+  display: flex;
+  width: 50%;
+  flex-direction: row-reverse;
 }
 
 .arrow img{
-  margin-left:1500%;
-  margin-bottom: -250%;
+  flex-direction: row-reverse;
 }
 
 
 .text{
   flex-direction: column;
   color: white;
-  margin-left: 10%;
+  width: 475px;
 }
 
 .title{
-  margin-left: 2%;
   font-size: 150%;
-  width: 40%;
+  width: 100%;
 }
 
 .textTitle{
   font-family: 'CaviarDreams';
   margin-top:6%;
-  /*border-left-color: #FF9300;*/
+  border-left-style: solid;
+  border-left-color: #FF9300;
+  padding-left: 2%;
 }
 
 .smallText{
   font-size: 90%;
   font-weight: lighter;
-  width: 49%;
-  padding-left: 3.5%;
 }
 
-
-.orange{
-  background-color: #FF9300;
-  width:2px;
-  height:30px;
-  margin:10px;
-  margin-top: 24px;
-}
 
 /*formulaire*/
 
@@ -90,66 +83,51 @@ body{
   flex-direction: column;
   justify-content: center;
   margin-top:11%;
-  width:30%;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 form.formContainer{
-  margin-left: 10%;
-}
-
-select#subject{
-  height: 1.5%;
-  background:#F2F2F2;
-  width:40%;
-  background-color: white;
-  border: solid #707070 thin;
-  }
-}
-
-input{
-  border: solid #707070 thin;
-  border-radius: 5%;
-  height: 1.8%;
-  width:200%;
-}
-
-section.background{
-  margin-top:-10%;
-  width:170%;
-  height:300%;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 60px;
+  width:100%;
+  height:100%;
   background-color: #f2f2f2;
   border-radius: 5%;
   display:flex;
   flex-direction: column;
   justify-content: center;
 }
+.flexbox{
+  padding-bottom :5px;
+}
 
+select#subject{
+  height: 1.5%;
+  background:#F2F2F2;
+  width:100%;
+  font-size: 80%;
+  background-color: white;
+  border: solid #707070 thin;
+}
 
-section.item{
+input{
+  border: solid #707070 thin;
+  border-radius: 5%;
+  height: 1.8%;
+  width:100%;
+}
+
+div.item{
   display:flex;
-  margin:3%;
+  margin:10px;
   width:100%;
 }
 
 label{
-  width:50%;;
-}
-
-/*first Flexbox*/
-section.firstFlexobx{
-  padding-top: 1.5%;
-}
-
-/*second Flexbox*/
-
-section.secondFlexbox{
-  padding-top:0.5%;
-}
-
-
-/*third flexbox*/
-section.thirdFlexbox{
-  padding-top:0.5%;
+  width:100%;
 }
 
 .book{
@@ -248,7 +226,7 @@ margin-top:2%;
   transform: rotate(45deg);
 }
 /*Fourth Flexbox*/
-section.fourthFlexbox{
+div.fourthFlexbox{
   display:flex;
   margin-bottom: 10%;
 }
@@ -260,150 +238,65 @@ section.fourthFlexbox{
 }
 
 .writeHere{
-  width:90%;
+  width:100%;
 }
 
-
-/*Réserver*/
-.booking{
+.containerButton{
+  width: 100%;
   display: flex;
   justify-content: center;
-  margin-top : 3%;
-  margin-bottom: 20%;
-  margin-left: 60%;
-  width:50%;
+  align-items: center;
 }
 
-.bookingButton{
-  background-color: #FF9300;
-  color:white;
-  border-color:#FF9300;
-  padding: 0.5%;
-  width:150%;
-  height: 500%;
-  font-size:100%;
-  text-transform: uppercase;
+.button{
+    background-color: #FF9300;
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-color:#FF9300;
+    display: flex;
 }
 
-@media screen and (max-width:1500px){
-}
-
-.title{
-  font-size: 120%;
-}
-
-.smallText{
-  font-size: 100%;
-}
-
-@media screen and (max-width:1050px){
-}
-
-body{
-  font-size: 70%;
-}
-
-.blocOne{
-  margin-left: 0%;
-}
-
-.arrow img{
-  margin-left:1400%;
-  margin-bottom: -700%;
-  height:600%;
-}
-
-.text{
-  margin-left: 5%;
-  margin-top: 80%;
-}
-
-.title{
-  font-size: 150%;
-  width: 30%;
-}
-
-.textTitle{
-  margin-top: 4.5%;
-  margin-left: 1%;
-  /*border-left-color: #FF9300;*/
-}
-
-.smallText{
-  font-size: 100%;
-  width: 35%;
-  margin-left:2%;
-}
-
-.orange{
-  margin-top: 12px;
-}
-
-.title{
-  font-size: 130%;
-}
-
-section.background{
-  margin-top:-15%;
-  height: 200%;
-}
-
-form.formContainer{
-  margin-left: 6%;
-  margin-bottom: -8%;
-}
-
-select#subject{
-  background:#F2F2F2;
-  width:40%;
-  font-size:70%;
-  background-color: white;
-  border: solid #707070 thin;
+.button a{
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
 }
 
 
-label{
-  width:40%;
+@media screen and (min-width:768px) and (max-width:1024px)
+{
+  .container{
+    width:768px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .arrow img{
+    display:none;
+  }
+
 }
 
-input{
-  width:40%;
-}
+@media screen and (max-width:768px)
+{
+  .container{
+    width:100%;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
 
-section.secondFlexbox{
-  padding-top:0.005%;
-}
+    .arrow img{
+      display:none;
+    }
 
-section.thirdFlexbox{
-  padding-top:0.005%;
-  margin-bottom: 0%;
-}
-
-.secondChoices{
-  height:50%;
-}
-
-.choiceContainer{
-  margin-bottom:0%;
-  padding-bottom: 0.3%;
-}
-
-.secondChoices .checkmark{
-  width: 8%;
-}
-
-section.message{
-  padding-top:-1%;
-  width:90%;
-}
-
-.booking{
-  height: 1%;
-  margin-left: 65%;
-}
-
-
-@media screen and (max-width:768px){
 }
 
 .sent{
