@@ -11,6 +11,10 @@ body{
   font-size: 14px;
 }
 
+main{
+  padding-top: 100px;
+}
+
 @font-face {
   font-family: 'Helvetica';
   src: url('../fonts/Helvetica.ttf')
