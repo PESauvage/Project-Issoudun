@@ -16,6 +16,11 @@ body{
   height:100%;
 }
 
+
+main{
+  padding-top: 0px;
+}
+
 .column{
   display:flex;
   flex-direction: column;
@@ -157,7 +162,7 @@ div.fourthFlexbox{
   align-items: center;
 }
 
-.button{
+input[type=submit]{
     background-color: #FF9300;
     height: 30px;
     width: 100px;
@@ -168,13 +173,9 @@ div.fourthFlexbox{
     text-align: center;
     border-color:#FF9300;
     display: flex;
-}
-
-.button a{
+    text-transform: uppercase;
     color: white;
     text-decoration: none;
-    justify-content: center;
-    align-items: center;
 }
 
 

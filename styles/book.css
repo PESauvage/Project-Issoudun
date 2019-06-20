@@ -28,6 +28,10 @@ body{
 
 }
 
+main{
+  padding-top: 0px;
+}
+
 /*BLOC1*/
 
 .blocOne{
@@ -88,7 +92,6 @@ body{
 }
 
 form.formContainer{
-  padding-top: 30px;
   padding-left: 50px;
   padding-right: 60px;
   width:100%;
@@ -249,7 +252,7 @@ div.fourthFlexbox{
   align-items: center;
 }
 
-.button{
+input[type=submit]{
     background-color: #FF9300;
     height: 30px;
     width: 100px;
@@ -260,14 +263,13 @@ div.fourthFlexbox{
     text-align: center;
     border-color:#FF9300;
     display: flex;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
 }
 
 .button a{
-    color: white;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
-}
+
 
 
 @media screen and (min-width:768px) and (max-width:1024px)
