@@ -5,6 +5,8 @@
     <meta name="description" content="description de ma page">
     <link href="styles/hover-min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/card.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <title>Card Issoudun Project </title>
   </head>
   <body>
@@ -12,14 +14,23 @@
       <nav>
         <a class="logo" href="index.html">Centre de Congrès</a>
         <ul class="nav-links">
-          <li><a href="#">Nos Salles</a></li>
-          <li><a href="#">Réserver</a></li>
-          <li><a href="#">Nous contacter</a></li>
+          <li>
+              <a href="#">Nos Salles <span class="arrow">&#x25BC;</span> </a>
+              <ul class="submenu">
+                  <li><a href="pages/amphitheatre.html">Amphithéâtre</a></li>
+                  <li><a href="pages/EspaceNumerique.html">Espace numérique</a></li>
+                  <li><a href="pages/SalleDeReception.html">Salle de réception</a></li>
+                  <li><a href="pages/SalleDeReunion.html">Salle de réunion</a></li>
+                  <li><a href="pages/HallDaccueil.html">Hall d'accueil</a></li>
+              </ul>
+          </li>
+          <li><a class="book-not-displayed" href="pages/book.html">Réserver</a></li>
+          <li><a href="pages/contacts.html">Nous contacter</a></li>
         </ul>
         <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
       </nav>
     </header>
@@ -155,7 +166,7 @@
             <div class="cineText">
               <h2>Un voyage. Des émotions. <br>Vos cinémas !</h2>
               <p>3 salles de cinéma pour retrouver vos films préférés</p>
-              <a href="https://cinemaelysees.com/">ACCÉDER AU SITE</a>
+              <a class="hvr-pop" href="https://cinemaelysees.com/">ACCÉDER AU SITE</a>
             </section>
           </div>
         </div>
@@ -169,37 +180,37 @@
             </div>
           </div>
           <iframe class="fb" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCDCIssoudun%2F%3Fref%3Dbr_rs&tabs=timeline&width=500&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-          <div class="button2">
+          <div class="button2 hvr-grow">
             <a href="#">NOUS CONTACTER</a>
           </div>
         </div>
       </main>
       <footer>
         <div>
-          <ul>
-            <li class="titre"><h3>Contacts</h3></li>
-            <li><p>congres@issoudun.fr</p></li>
-            <li><p>Fax: 0254033267</p></li>
-            <li><p>Tel: +33 2 54 03 32 61</p></li>
-            <li><p>Centre de Congrès "Champs Élysées"</p></li>
-            <li><p>Boulevard Roosevelt</p></li>
-            <li><p>BP 150</p></li>
-            <li><p>36105 Issoudun</p></li>
-          </ul>
+            <ul>
+                <li class="titre"><h3>Contacts</h3></li>
+                <li><p>congres@issoudun.fr</p></li>
+                <li><p>Fax: 0254033267</p></li>
+                <li><p>Tel: +33 2 54 03 32 61</p></li>
+                <li><p>Centre de Congrès "Champs Élysées"</p></li>
+                <li><p>Boulevard Roosevelt</p></li>
+                <li><p>BP 150</p></li>
+                <li><p>36105 Issoudun</p></li>
+            </ul>
         </div>
         <div>
-          <ul>
-            <li class="titre"><h3>À découvrir sur Issoudun</h3></li>
-            <li><a href="#">Bip TV</a></li>
-            <li><a href="#">Centre culturel Albert Camus</a></li>
-            <li><a href="#">Musée de l'hospice Saint Roch</a></li>
-            <li><a href="#">Ville d'Issoudun</a></li>
-          </ul>
+            <ul>
+                <li class="titre"><h3>À découvrir sur Issoudun</h3></li>
+                <li><a href="https://www.biptv.tv/">Bip TV</a></li>
+                <li><a href="https://www.ccacissoudun.tv/">Centre culturel Albert Camus</a></li>
+                <li><a href="https://www.museeissoudun.tv/">Musée de l'hospice Saint Roch</a></li>
+                <li><a href="http://www.issoudun.fr/">Ville d'Issoudun</a></li>
+            </ul>
         </div>
         <div>
-          <ul>
-            <li><h3><a class="titre" href="#">Mentions légales</a></h3></li>
-          </ul>
+            <ul>
+                <li><h3><a class="titre" href="legalnotice.html">Mentions légales</a></h3></li>
+            </ul>
         </div>
       </footer>
       <script src="scripts/nav.js"></script>
