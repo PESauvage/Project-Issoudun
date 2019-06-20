@@ -292,6 +292,11 @@ div.fourthFlexbox{
     margin-top:4%;
   }
 
+  form.formContainer{
+    width:90%;
+  }
+
+
 }
 
 @media screen and (max-width:768px)
@@ -314,6 +319,14 @@ div.fourthFlexbox{
 
     .blocTwo{
       margin-top:4%;
+    }
+
+    .item{
+      flex-direction: column;
+    }
+
+    form.formContainer{
+      width:70%;
     }
 
 }

@@ -84,16 +84,16 @@ body{
   margin-top:11%;
   width: 100%;
   margin-right: 0px;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 form.formContainer{
-  padding-top: 30px;
+  padding-top: 40px;
   padding-left: 50px;
   padding-right: 60px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   width:100%;
-  height:200%;
+  height:100%;
   background-color: #f2f2f2;
   border-radius: 5%;
   display:flex;
@@ -102,7 +102,7 @@ form.formContainer{
 }
 
 .flexbox{
-  padding-bottom :30px;
+  padding-bottom :20px;
 }
 
 select#subject{
@@ -117,7 +117,7 @@ select#subject{
 input{
   border: solid #707070 thin;
   border-radius: 5%;
-  height: 5%;
+  height: 1.8%;
   width:100%;
 }
 
@@ -127,15 +127,14 @@ div.item{
   width:100%;
 }
 
-label{
-  width:100%;
-}
 
-.book{
-  display:flex;
-  flex-direction:column;
-}
+  label{
+    width:50%;
+    margin-bottom: 10px;
+  }
 
+
+/*Fourth Flexbox*/
 div.fourthFlexbox{
   display:flex;
   margin-bottom: 10%;
@@ -184,7 +183,6 @@ div.fourthFlexbox{
   .container{
     width:768px;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
   }
@@ -195,36 +193,27 @@ div.fourthFlexbox{
 
   .smallText{
     margin-top:3%;
-    width:80%;
+    width:70%;
   }
 
   .blocTwo{
     margin-top:4%;
-    padding-right: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0px;
-  }
-
-  .containerButton{
-    padding-left: 40%;
   }
 
   form.formContainer{
-    vertical-align: middle;
-    width:200%;
+    width:70%;
   }
+
 }
 
 @media screen and (max-width:768px)
 {
-  .container{
-    width:100%;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: column;
-  }
+    .container{
+      width:768px;
+      flex-wrap: wrap;
+      align-items: center;
+      flex-direction: column;
+    }
 
     .arrow img{
       display:none;
@@ -232,18 +221,21 @@ div.fourthFlexbox{
 
     .smallText{
       margin-top:3%;
-      width:80%;
+      width:50%;
     }
 
     .blocTwo{
       margin-top:4%;
+      justify-content: center;
     }
 
     form.formContainer{
-      padding-left : 20px;
-      padding-right: 20px;
+      width:50%;
     }
 
+    .item{
+      flex-direction: column;
+    }
 }
 
 .sent{
