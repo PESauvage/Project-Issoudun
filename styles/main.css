@@ -34,42 +34,6 @@ body{
 
 /*FOOTER*/
 
-footer{
-  background-color: #F2F2F2;
-  color:#707070;
-  height: 150px;
-  width:100%;
-  font-size: 0.6rem;
-  font-weight: lighter;
-  box-sizing: border-box;
-  margin:0;
-}
-
-.footerContainer{
-  display:flex;
-  justify-content: flex-start;
-  width:100;
-  margin-top:20px;
-}
-
-h6{
-  font-size: 0.7rem;
-}
-
-a{
-  outline: none;
-  text-decoration: none;
-}
-
-a:visited{
-  color:#707070;
-}
-
-.footerDiv{
-  flex-direction: column;
-  width:200px;
-}
-
 
 /* CARD HOMEPAGE */
 
@@ -84,7 +48,7 @@ align-content: space-around;
 }
 
 .card{
-  width: 470px;
+  width: 470;
   height: 230px;
   margin-bottom: 20px;
   margin-top: 20px;

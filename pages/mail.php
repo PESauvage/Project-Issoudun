@@ -12,8 +12,8 @@ if(!empty($_POST['message'])){
     /**
      * Déclaration des messages au format texte et au format HTML.
      */
-    $message_txt = $_POST['firstname']." ".$_POST['name']." demande de réserver la salle ".$_POST['room']." le ".$_POST['date']." à ".$_POST['hours'].$passage_ligne.$passage_ligne.'Télephone : '.$_POST['phonenumber'].$passage_ligne.'E-mail : '.$_POST['email'].$passage_ligne.$passage_ligne.'Nombre de participants : '.$_POST['number'].$passage_ligne.'Restauration : '.$_POST[''].$passage_ligne.'Remarques : '.$passage_ligne.$_POST['message'];
-    $message_html = "<html><head></head><body>".$_POST['firstname']." ".$_POST['name']." demande de réserver la salle ".$_POST['room']." le ".$_POST['date']." à ".$_POST['hours'].'<br/>'.'<br/>'.'Télephone : '.$_POST['phonenumber'].'<br/>'.'E-mail : '.$_POST['email'].'<br/>'.'<br/>'.'Nombre de participants : '.$_POST['number'].'<br/>'.'Restauration : '.$_POST['email'].'<br/>'.'Remarques : '.'<br/>'.$_POST['message']."</body></html>";
+    $message_txt = $_POST['firstname']." ".$_POST['name']." demande de réserver la salle ".$_POST['room']." le ".$_POST['date']." à ".$_POST['hours'].$passage_ligne.$passage_ligne.'Télephone : '.$_POST['phonenumber'].$passage_ligne.'E-mail : '.$_POST['email'].$passage_ligne.$passage_ligne.'Nombre de participants : '.$_POST['number'].$passage_ligne.'Restauration : '.$_POST['resto'].$passage_ligne.'Remarques : '.$passage_ligne.$_POST['message'];
+    $message_html = "<html><head></head><body>".$_POST['firstname']." ".$_POST['name']." demande de réserver la salle ".$_POST['room']." le ".$_POST['date']." à ".$_POST['hours'].'<br/>'.'<br/>'.'Télephone : '.$_POST['phonenumber'].'<br/>'.'E-mail : '.$_POST['email'].'<br/>'.'<br/>'.'Nombre de participants : '.$_POST['number'].'<br/>'.'Restauration : '.$_POST['resto'].'<br/>'.'Remarques : '.'<br/>'.$_POST['message']."</body></html>";
 
     /**
      * Création de la boundary
