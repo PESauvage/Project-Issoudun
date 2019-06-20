@@ -28,7 +28,7 @@ body{
 
 }
 
-/*text*/
+/*BLOC1*/
 
 .blocOne{
   flex-direction: column;
@@ -49,7 +49,6 @@ body{
 .arrow img{
   flex-direction: row-reverse;
 }
-
 
 .text{
   flex-direction: column;
@@ -76,7 +75,7 @@ body{
 }
 
 
-/*formulaire*/
+/*BLOC2*/
 
 .blocTwo{
   display: flex;
@@ -100,6 +99,7 @@ form.formContainer{
   flex-direction: column;
   justify-content: center;
 }
+
 .flexbox{
   padding-bottom :5px;
 }
@@ -225,6 +225,7 @@ margin-top:2%;
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
 /*Fourth Flexbox*/
 div.fourthFlexbox{
   display:flex;
@@ -282,6 +283,15 @@ div.fourthFlexbox{
     display:none;
   }
 
+  .smallText{
+    margin-top:3%;
+    width:80%;
+  }
+
+  .blocTwo{
+    margin-top:4%;
+  }
+
 }
 
 @media screen and (max-width:768px)
@@ -295,6 +305,15 @@ div.fourthFlexbox{
 
     .arrow img{
       display:none;
+    }
+
+    .smallText{
+      margin-top:3%;
+      width:80%;
+    }
+
+    .blocTwo{
+      margin-top:4%;
     }
 
 }
