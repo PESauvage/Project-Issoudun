@@ -21,7 +21,7 @@
 }
 
 .CdC {
-  width: 100%;
+  width: 110%;
   height: 100%;
   z-index: -50;
 }
@@ -493,6 +493,11 @@ footer h2{
   div.presentation{
     margin-bottom: -220px;
   }
+
+  .title, .title2{
+    margin: 0 auto;
+  }
+
   .cinema>img{
     height: 320px;
   }
@@ -519,6 +524,11 @@ footer h2{
     margin-right: 5%;
     font-size: 25px;
   }
+
+  .Facebook{
+    text-align: center;
+  }
+
   .fb{
     margin-left: 14%;
   }
