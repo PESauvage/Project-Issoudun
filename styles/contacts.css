@@ -104,6 +104,7 @@ form.formContainer{
   display:flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 80px;
 }
 
 .flexbox{
