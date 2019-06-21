@@ -287,7 +287,7 @@ div#forkSize h3{
   .containerCard{
     height: 1500px;
     width: 500px;
-    flex-direction: row wrap;
+    flex-direction: row;
   }
   .icon{
     display: flex;
