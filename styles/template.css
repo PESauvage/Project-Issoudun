@@ -134,6 +134,22 @@ h2{
       width: 300px;
       height: 550px;
   }
+
+  #epn{
+      height: 420px;
+  }
+
+  #amphi{
+    height: 400px;
+  }
+
+  #reu{
+      height: 400px;
+  }
+
+  #hall{
+    height: 350px;
+  }
 }
 
 
@@ -158,5 +174,21 @@ h2{
   .presentation{
       width: 300px;
       height: 550px;
+  }
+
+  #epn{
+    height: 420px;
+  }
+
+  #amphi{
+      height: 400px;
+  }
+
+  #reu{
+    height: 400px;
+}
+
+  #hall{
+      height: 350px;
   }
 }
