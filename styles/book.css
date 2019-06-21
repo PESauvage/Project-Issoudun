@@ -277,7 +277,7 @@ input[type=submit]{
   }
 
   .textTitle{
-    font-size:80%; 
+    font-size:120%;
   }
 
   .container{
@@ -312,6 +312,10 @@ input[type=submit]{
 
   main{
   padding-top: 100px;
+  }
+
+  .textTitle{
+      font-size:120%;
   }
 
   .container{
