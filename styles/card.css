@@ -477,7 +477,7 @@ footer h2{
   }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:1024px){
   .container-home{
     width: 670px;
   }
@@ -498,7 +498,7 @@ footer h2{
   .logoCine{
     width: 30%;
     margin-left: 4%;
-    margin-top: 24%;
+    margin-top: 20%;
   }
   .cineText{
     position: absolute;
