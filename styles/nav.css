@@ -129,6 +129,9 @@ nav{
     .burger{
         display: block;
     }
+    .disappear{
+        visibility: hidden;
+    }
 }
 
 .nav-active{
