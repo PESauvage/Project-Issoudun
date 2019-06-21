@@ -268,12 +268,18 @@ input[type=submit]{
     text-decoration: none;
 }
 
-.button a{
-
-
 
 @media screen and (min-width:768px) and (max-width:1024px)
 {
+
+  main{
+  padding-top: 100px;
+  }
+
+  .textTitle{
+    font-size:80%; 
+  }
+
   .container{
     width:768px;
     flex-wrap: wrap;
@@ -303,6 +309,11 @@ input[type=submit]{
 
 @media screen and (max-width:768px)
 {
+
+  main{
+  padding-top: 100px;
+  }
+
   .container{
     width:100%;
     flex-wrap: wrap;

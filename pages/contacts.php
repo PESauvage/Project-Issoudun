@@ -58,6 +58,6 @@ if(!empty($_POST['message'])){
      * Envoi de l'e-mail.
      */
     mail($mail,$sujet,$message,$header);
-    header('Location: http://localhost:8888/pages/contacts.html');
+    header('Location: http://congreselysees.com/pages/sent.html');
     exit;
 }
