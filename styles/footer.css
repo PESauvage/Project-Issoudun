@@ -10,7 +10,7 @@ footer{
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
-    color:rgb(0, 0, 0, 0.9);
+    color:rgb(0, 0, 0, 0.6);
     font-family: Helvetica;
     justify-content: space-around;
     align-items: stretch;
@@ -28,15 +28,38 @@ footer li{
 
 footer a{
     text-decoration: none;
+    color: rgb(0, 0, 0, 0.6);
+}
+
+footer a:hover{
+    text-decoration: none;
     color: rgb(0, 0, 0, 0.9);
+    font-weight: bold;
+}
+
+h3 a{
+  color:rgb(0, 0, 0, 0.9);
+}
+
+h3 a:hover{
+  color:rgb(0, 0, 0, 0.6);
 }
 
 footer ul{
     padding-inline-start: 0;
 }
 
+footer h3{
+  font-size:90%;
+  text-transform: uppercase;
+  font-weight:1000;
+  padding-bottom: 5%;
+  padding-top:4%;
+  color:rgb(0, 0, 0, 0.9);
+}
+
 footer h2{
-    font-size: 20px;
+    font-size: 40%;
 }
 
 @media screen and (max-width:1024px)
