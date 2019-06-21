@@ -23,3 +23,13 @@ const navSlide = () => {
 
 }
 navSlide()
+
+let makeDisappear = document.querySelector('.make-disappear')
+let disappear = document.querySelector('#book-not-displayed')
+
+makeDisappear.addEventListener('mouseover', () => {
+    disappear.classList.add("disappear")
+})
+makeDisappear.addEventListener('mouseout', () => {
+    disappear.classList.remove("disappear")
+})
