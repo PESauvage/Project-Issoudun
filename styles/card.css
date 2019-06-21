@@ -8,7 +8,6 @@
   src: url('../fonts/CaviarDreams.ttf');
 }
 
-
 *{
     margin: 0px;
     padding: 0px;
@@ -110,10 +109,7 @@ body{
   font-family: 'Caviar Dreams';
   color: #444
 }
-@font-face {
-  font-family: 'Caviar Dreams';
-  src: url('../fonts/CaviarDreams.ttf');
-}
+
 
 /**** CARD ****/
 
@@ -214,6 +210,10 @@ box-shadow: 5px 7px 5px 0px #E2E2E2;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+}
+
+.button:hover{
+    background: #dd8406
 }
 
 .button a{
@@ -321,7 +321,7 @@ img.cinema{
   z-index: -1;
 }
 
-img.logo{
+.logoCine{
   z-index: 4;
   width: 15%;
   height: 5%;
@@ -357,6 +357,8 @@ img.logo{
 
 .cinema a:hover{
   cursor: pointer;
+  border-color: #FF9300;
+  color: #FF9300;
 }
 
 .cineText{
@@ -390,9 +392,147 @@ img.logo{
     margin-bottom: 10%;
 }
 
+.button2:hover{
+  background: #dd8406
+}
+
 .button2 a{
   font-weight: bold;
   font-size: 17px;
   color: white;
   text-decoration: none;
+}
+
+/*FOOTER*/
+
+footer, footer div, footer ul, footer li, footer h3, footer p, footer a{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+footer{
+    min-height: 8vh;
+    background-color:rgb(235, 235, 235);
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    color:rgb(0, 0, 0, 0.9);
+    font-family: Helvetica;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+footer div{
+    display: flex;
+    padding: 10px 10px;
+    align-items: flex-start;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.9);
+}
+
+footer ul{
+    padding-inline-start: 0;
+}
+
+footer h2{
+    font-size: 20px;
+}
+
+@media screen and (max-width:1500px){
+  .cinema h2{
+    font-size: 49px;
+  }
+  .cinema p{
+    font-size: 28px;
+    padding-right: 14%;
+  }
+  .cinema>img{
+    height: 360px;
+  }
+  .logoCine{
+    width: 20%;
+    height: 100px;
+    margin-left: 8%;
+    margin-top: 11%;
+  }
+}
+
+@media screen and (max-width:1050px){
+  .cinema h2{
+    font-size: 38px;
+  }
+  .cinema p{
+    font-size: 25px;
+    padding-right: 9%;
+  }
+  .cinema>img{
+    height: 360px;
+  }
+  .logoCine{
+    width: 20%;
+    height: 100px;
+    margin-left: 8%;
+    margin-top: 11%;
+  }
+}
+
+@media screen and (max-width:768px){
+  .container-home{
+    width: 670px;
+  }
+  div.grey-background{
+    height: 140px;
+  }
+  div.presentation{
+    margin-bottom: -220px;
+  }
+
+  .title, .title2{
+    margin: 0 auto;
+  }
+
+  .cinema>img{
+    height: 320px;
+  }
+  .logoCine{
+    width: 30%;
+    margin-left: 4%;
+    margin-top: 24%;
+  }
+  .cineText{
+    position: absolute;
+    margin-left: 12%;
+  }
+  .cinema h2{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+  }
+  .cinema p{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 8%;
+  }
+  .cinema a{
+    margin-right: 5%;
+    font-size: 25px;
+  }
+
+  .Facebook{
+    text-align: center;
+  }
+
+  .fb{
+    margin-left: 14%;
+  }
+  .button2{
+    width: 25%;
+  }
 }
