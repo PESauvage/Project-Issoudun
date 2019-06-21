@@ -1,13 +1,3 @@
-@font-face {
-  font-family: 'Helvetica';
-  src: url('../fonts/Helvetica.ttc');
-}
-
-@font-face {
-  font-family: 'Caviar Dreams';
-  src: url('../fonts/CaviarDreams.ttf');
-}
-
 *{
     margin: 0px;
     padding: 0px;
