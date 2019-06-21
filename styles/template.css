@@ -78,6 +78,11 @@ h2{
     max-height: 40px;
   }
 
+#regle img{
+ width: 24px;
+  max-height: 40px;
+}
+
 .info p{
     color: #707070;
     margin: 0 auto;
