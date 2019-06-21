@@ -11,7 +11,7 @@
 }
 
 .CdC {
-  width: 105%;
+  width: 100%;
   height: 100%;
   z-index: -50;
 }
@@ -60,13 +60,13 @@ div.orangeP{
 }
 
 div.title{
-  width: 277px;
+  width: 293px;
   margin-top: 10%;
   margin-bottom: 4%;
 }
 
 div.title2{
-  width: 297px;
+  width: 314px;
   margin-top: 40px;
 }
 
