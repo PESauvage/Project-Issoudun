@@ -21,7 +21,7 @@
 }
 
 .CdC {
-  width: 100%;
+  width: 110%;
   height: 100%;
   z-index: -50;
 }
@@ -357,8 +357,8 @@ img.cinema{
 
 .cinema a:hover{
   cursor: pointer;
-  border-color: #FF9300;
-  color: #FF9300;
+  border-color: #f0cf2f;
+  color: #f0cf2f;
 }
 
 .cineText{
