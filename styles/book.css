@@ -348,24 +348,4 @@ input[type=submit]{
 
 }
 
-.sent{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20%;
-  font-size: 250%;
-  font-family: "CaviarDreams" "helvetica";
-  color: white;
-}
-
-.backToMain{
-  color:white;
-  text-decoration: none;
-  background-color: #FF9300;
-  font-size: 50%;
-  margin:1%;
-  padding: 1%;
-  text-transform: uppercase;
-}
 /*FIN FORMULAIRE BOOK*/
