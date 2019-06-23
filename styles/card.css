@@ -310,19 +310,17 @@ div#forkSize h3{
 
 .cinema{
   margin-top: 2%;
+  background-image:url(../images/cinema/cinema.png);
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100%;
+  padding-bottom: 5%;
+
 }
 
 .inside{
   display: flex;
   justify-content: space-between;
-}
-
-img.cinema{
-  position: absolute;
-  margin: 0 auto;
-  width: 100%;
-  height: 450px;
-  z-index: -1;
 }
 
 .logoCine{
@@ -345,7 +343,7 @@ img.cinema{
   margin-bottom: 6%;
   color: white;
   font-size: 30px;
-  font-family: 'Helvetica';
+  font-family: 'Caviar Dreams'
 }
 
 .cinema a{
