@@ -26,9 +26,56 @@
     background-attachment: fixed;
 
 }
+
+
+.scroll-down {
+	position: absolute;
+	left: 50%;
+	bottom: 50px;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0;
+  width: 13px;
+  height: 13px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  z-index: 9;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+	-webkit-animation: fade_move_down 4s ease-in-out infinite;
+	-moz-animation:    fade_move_down 4s ease-in-out infinite;
+	animation:         fade_move_down 4s ease-in-out infinite;
+}
+
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+
+
 /*Introduction*/
 
 .container-home{
+  display: flex;
+  flex-direction: column;
   width: 970px;
   background-color: white;
   clear: both;
@@ -42,7 +89,6 @@ div.grey-background{
   background-color: #E9E8E8;
   display: flex;
   justify-content: center;
-  z-index: -10;
 }
 
 div.presentation{
@@ -53,6 +99,7 @@ div.presentation{
   justify-content: space-between;
   align-items: center;
   margin-bottom: -240px;
+  z-index: 100;
 }
 
 div.orangeP{
@@ -73,11 +120,13 @@ div.title{
   width: 293px;
   margin-top: 10%;
   margin-bottom: 4%;
+  margin-left: 6%;
 }
 
 div.title2{
   width: 314px;
   margin-top: 40px;
+  margin-left: 6%;
 }
 
 .title h3, .title2 h3{
@@ -114,18 +163,20 @@ body{
 
 .containerCard{
 height: 730px;
-width: 960px;
+width: 100%;
 margin: 0 auto;
 display: flex;
 flex-flow: column wrap;
-align-content: space-around;
+align-items: center;
+justify-content: space-around;
 }
 
 .card{
-  width: 400px;
+  width: 60%;
   height: 200px;
   margin-bottom: 20px;
   margin-top: 20px;
+  padding-right: 10%;
   display: flex;
   justify-content: flex-end;
 }
@@ -312,7 +363,9 @@ div#forkSize h3{
   margin-top: 2%;
   background-image:url(../images/cinema/cinema.png);
   background-attachment: fixed;
-  width: 100vw;
+  background-position: center center;
+  background-repeat: :no-repeat;
+  width: 100%;
   height: 100%;
   padding-bottom: 5%;
 
@@ -374,7 +427,7 @@ div#forkSize h3{
 }
 
 .Facebook{
-  margin-top: 18%;
+  margin-top: 7%;
 }
 .fb{
   margin-left: 25%;
