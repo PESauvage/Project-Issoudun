@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/card.css">
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Centre de Congrès Champs-Élysées</title>
   </head>
   <body>
@@ -43,7 +44,7 @@
       <div class="container-home">
         <div class="presentation">
           <img src="images/CDCexterieur/cdcJardins.jpg" alt="cdcJardins">
-          <div class="orangeP">
+          <div data-aos="fade-up" class="orangeP">
             <p>
               Un centre à la confluence de plusieurs univers : l’économie, les loisirs, la culture, les technologies de la communication et le festif.
             </p>
@@ -54,7 +55,7 @@
           <h3>NOS SALLES & SERVICES</h3>
         </div>
         <div class="containerCard">
-          <div class="card hvr-grow hvr-shadow" id="salleDeR">
+          <div data-aos="fade-up" class="card hvr-grow hvr-shadow" id="salleDeR">
             <div class="cardLeftPart">
               <img src="images/SalleDeReception/grandeSalle.JPG" alt="Salle de réception">
             </div>
@@ -71,7 +72,7 @@
                 </div>
               </div>
             </div>
-          <div class="card hvr-grow hvr-shadow">
+          <div data-aos="fade-up" class="card hvr-grow hvr-shadow">
             <div class="cardLeftPart">
               <img src="images/amphi/amphi.jpg" alt="Amphithéatre Pierre Selleron">
             </div>
@@ -92,7 +93,7 @@
                 </div>
               </div>
             </div>
-          <div class="card hvr-grow hvr-shadow">
+          <div data-aos="fade-up" class="card hvr-grow hvr-shadow">
             <div class="cardLeftPart">
               <img src="images/hall/hall.JPG" alt="Hall d'accueil">
             </div>
@@ -100,7 +101,7 @@
               <h2>HALL D'ACCUEIL</h2>
               <div class="iconText">
                 <div class="icon" id="regleSize">
-                  <img src="icons/Règle.svg" alt="règle">
+                  <img src="icons/Regle.svg" alt="règle">
                   <h3>315 mètres carrés</h3>
                 </div>
                 <div class="icon" id="sunSize">
@@ -113,7 +114,7 @@
                 </div>
               </div>
             </div>
-          <div class="card hvr-grow hvr-shadow">
+          <div data-aos="fade-up" class="card hvr-grow hvr-shadow">
             <div class="cardLeftPart">
               <img src="images/cuisinesprofessionnelles/cuisines2.jpg" alt="Cuisines Professionelles">
             </div>
@@ -127,7 +128,7 @@
               </div>
             </div>
           </div>
-          <div class="card hvr-grow hvr-shadow">
+          <div data-aos="fade-up" class="card hvr-grow hvr-shadow">
             <div class="cardLeftPart">
               <img src="images/EspaceNumerique/epn.jpg" alt="Espace numérique">
             </div>
@@ -144,7 +145,7 @@
               </div>
             </div>
           </div>
-          <div class="card hvr-grow hvr-shadow">
+          <div data-aos="fade-up" class="card hvr-grow hvr-shadow">
             <div class="cardLeftPart">
               <img src="images/SallesDeReunion/reunion.jpg" alt="Hall de réunion">
             </div>
@@ -221,5 +222,9 @@
         </div>
       </footer>
       <script src="scripts/nav.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+       AOS.init();
+      </script>
     </body>
 </html>
