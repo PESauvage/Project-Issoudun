@@ -99,7 +99,7 @@ div.presentation{
   justify-content: space-between;
   align-items: center;
   margin-bottom: -240px;
-  z-index: 100;
+  z-index: 10;
 }
 
 div.orangeP{
@@ -172,24 +172,24 @@ justify-content: space-around;
 }
 
 .card{
-  width: 60%;
+  width: 40%;
   height: 200px;
   margin-bottom: 20px;
   margin-top: 20px;
-  padding-right: 10%;
+  margin-left: 8%;
   display: flex;
   justify-content: flex-end;
 }
 
 .cardLeftPart{
-  width: 320px;
-  height: 200px;
+  width: 70%;
+  height: 100%;
   overflow: hidden;
 }
 
 .cardRightPart{
-  width: 130px;
-  height: 200px;
+  width: 40%;
+  height: 100%;
   background: #F2F2F2;
 }
 
@@ -218,6 +218,7 @@ justify-content: space-around;
     transition-duration: 0.5s;
     transition-property: transform;
 }
+
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
@@ -590,4 +591,21 @@ footer h2{
   .button2{
     width: 25%;
   }
+
+  .containerCard{
+    height: auto;
+    flex-flow: column;
+    width: 100%;
+  }
+  .cardLeftPart{
+    width:100%;
+  }
+  .cardLeftPart{
+    width:100%;
+  }
+
+  .card{
+    width: 60%;
+  }
+
 }
