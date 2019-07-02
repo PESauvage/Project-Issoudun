@@ -16,12 +16,20 @@ main{
   flex-grow :1;
 }
 
-@font-face {
-  font-family: 'Helvetica';
-  src: url('../fonts/Helvetica.ttf')
-}
 
 @font-face {
   font-family: 'Caviar Dreams';
   src: url('../fonts/CaviarDreams.ttf');
+}
+
+
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: url('../fonts/CaviarDreams.ttf');
+}
+
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/Helvetica.ttf')
 }

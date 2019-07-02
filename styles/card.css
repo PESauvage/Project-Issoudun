@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Helvetica";
+}
+
+main{
+  padding-top:0;
 }
 
 /*home*/
@@ -130,7 +135,8 @@ div.title2{
 }
 
 .title h3, .title2 h3{
-  font-family: 'Caviar Dreams' 'helvetica';
+  font-family: 'CaviarDreams' 'Helvetica';
+  width:110%;
   font-size: 25px;
   padding-bottom: 5px;
   border-bottom-style: solid;
