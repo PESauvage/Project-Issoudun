@@ -36,4 +36,5 @@ carouselSlide.addEventListener('transitionend', function loopie(){
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)'
   }
 })
+
 /* Slider END*//* Slider END*//* Slider END*//* Slider END*//* Slider END*//* Slider END*//* Slider END*//* Slider END*//* Slider END*/

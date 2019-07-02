@@ -18,6 +18,8 @@ nav{
     position: fixed;
     width: 100%;
     z-index: 100;
+    -webkit-background: black;
+  	-moz-bacground: black;
 }
 
 .logo{
@@ -92,6 +94,8 @@ nav{
     height: 3px;
     background-color: rgba(255, 255, 255, 0.95);
     margin: 5px;transition: all 0.3s ease;
+    -webkit-background: black;
+  	-moz-background: black;
 }
 
 @media screen and (max-width:1500px){
