@@ -127,8 +127,14 @@ nav{
         transform: translateX(100%);
         transition: transform 0.2s ease-in;
     }
+
+    .nav-links{
+        justify-content: none;
+    }
+
     .nav-links li{
         opacity: 0;
+        margin-bottom:5%;
     }
     .burger{
         display: block;
