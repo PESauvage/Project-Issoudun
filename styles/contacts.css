@@ -211,7 +211,8 @@ input[type=submit]{
 @media screen and (max-width:768px)
 {
     .container{
-      width:768px;
+      margin: 10px;;
+      width:100%;
       flex-wrap: wrap;
       align-items: center;
       flex-direction: column;
@@ -228,11 +229,12 @@ input[type=submit]{
 
     .blocTwo{
       margin-top:4%;
-      justify-content: center;
+      justify-content:flex-start;
     }
 
     form.formContainer{
-      width:50%;
+      width:100%;
+      margin-left:10px;
     }
 
     .item{
