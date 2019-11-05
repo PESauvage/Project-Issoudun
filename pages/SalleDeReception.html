@@ -1,68 +1,82 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8"/>
-    <title>Centre de Congrès Champs-Élysées</title>
-    <meta name="description" content="Centre de congrès de la mairie d'Issoudun"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="icon" href="../icons/logoC.png" />
-    <link rel="stylesheet" href="../styles/main.css">
-    <link rel="stylesheet" href="../styles/template.css">
-    <link rel="stylesheet" href="../styles/slider.css">
-    <link rel="stylesheet" href="../styles/nav.css">
-    <link rel="stylesheet" href="../styles/footer.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a class="logo" href="../index.html">Congrès Issoudun</a>
-        <ul class="nav-links">
-          <li class="make-disappear">
-              <a href="#">Nos Salles <span class="arrow">&#x25BC;</span> </a>
-              <ul class="submenu">
-                  <li><a href="amphitheatre.html">Amphithéâtre</a></li>
-                  <li><a href="EspaceNumerique.html">Espace numérique</a></li>
-                  <li><a href="SalleDeReception.html">Salle de réception</a></li>
-                  <li><a href="SalleDeReunion.html">Salles de réunion</a></li>
-                  <li><a href="HallDaccueil.html">Hall d'accueil</a></li>
-              </ul>
-          </li>
-          <li id="book-not-displayed"><a href="book.html">Réserver</a></li>
-          <li><a href="contacts.html">Nous contacter</a></li>
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Centre de Congrès Champs-Élysées</title>
+  <meta name="description" content="Centre de congrès de la mairie d'Issoudun" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="icon" href="../icons/logoC.png" />
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/template.css">
+  <link rel="stylesheet" href="../styles/slider.css">
+  <link rel="stylesheet" href="../styles/nav.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="../index.html">Congrès Issoudun</a>
+      <ul class="nav-links">
+        <li class="make-disappear">
+          <a href="#">Nos Salles <span class="arrow">&#x25BC;</span> </a>
+          <ul class="submenu">
+            <li><a href="amphitheatre.html">Amphithéâtre</a></li>
+            <li><a href="EspaceNumerique.html">Espace numérique</a></li>
+            <li><a href="SalleDeReception.html">Salle de réception</a></li>
+            <li><a href="SalleDeReunion.html">Salles de réunion</a></li>
+            <li><a href="HallDaccueil.html">Hall d'accueil</a></li>
+          </ul>
+        </li>
+        <li id="book-not-displayed"><a href="book.html">Réserver</a></li>
+        <li><a href="contacts.html">Nous contacter</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <div class="whole-card-container">
+      <div class="slideshow-container">
+        <div class="mySlides">
+          <img class="slider-img" src="../images/hall/hall1.jpg" alt="hallImage">
         </div>
-      </nav>
-    </header>
-    <main class="container">
-      <div class="square"></div>
-      <div class="slider">
-        <div class="carousel-container">
-            <button id="prevBtn"></button>
-            <button id="nextBtn"></button>
-            <div class="carousel-slide">
-                <img src="../images/SalleDeReception/grandeSalle9.JPG" id="lastClone" alt="Salle de reception"> <!-- METTRE UNEDEUXIEME FOIS LA DERNIERE IMAGE ICI-->
-                <img src="../images/SalleDeReception/grandeSalle2.jpg" alt="Salle de reception">
-                <img src="../images/SalleDeReception/grandeSalle3.jpg" alt="Salle de reception"> <!-- Ne pas oublier de changer SRC enfonction de la position de ce fichier et du dossier de référence -->
-                <img src="../images/SalleDeReception/grandeSalle4.JPG" alt="Salle de reception">
-                <img src="../images/SalleDeReception/grandeSalle5.jpg" alt="Salle de reception">
-                <img src="../images/SalleDeReception/grandeSalle6.jpg" alt="Salle de reception">
-                <img src="../images/SalleDeReception/grandeSalle7.jpg" alt="Salle de reception">
-                <img src="../images/SalleDeReception/grandeSalle8.JPG" alt="Salle de reception">
-                <img src="../images/SalleDeReception/grandeSalle9.JPG" alt="Salle de reception">
-                <img src="../images/SalleDeReception/grandeSalle2.jpg" id="firstClone" alt="Salle de reception"> <!-- METTRE UNEDEUXIEME FOIS LA PREMIERE IMAGE ICI-->
-            </div>
+        <div class="mySlides">
+          <img class="slider-img" src="../images/hall/hall2.jpg" alt="hallImage">
         </div>
+        <div class="mySlides">
+          <img class="slider-img" src="../images/hall/hall3.jpg" alt="hallImage">
+        </div>
+        <div class="mySlides">
+          <img class="slider-img" src="../images/hall/hall4.jpg" alt="hallImage">
+        </div>
+        <div class="mySlides">
+          <img class="slider-img" src="../images/hall/hall9.jpg" alt="hallImage">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
       </div>
       <div class="presentation">
         <div class="fiche">
           <h2>SALLES DE RECEPTION</h2>
           <div class="features">
-              <!-- PERSONNES -->
+            <!-- PERSONNES -->
             <div class="specs">
               <div class="objects">
                 <img src="../icons/Personnes.svg">
@@ -137,16 +151,16 @@
               <li>500 chaises</li>
             </ul>
             <p>
-                Accès au traiteur indépendant
+              Accès au traiteur indépendant
             </p>
             <p>
-                Vestiaires
+              Vestiaires
             </p>
             <p>
-                Monte-charge
+              Monte-charge
             </p>
             <p>
-                Contactez nous pour connaître la capacité d'accueil maximale en repas.
+              Contactez nous pour connaître la capacité d'accueil maximale en repas.
             </p>
           </div>
           <div class="button">
@@ -154,37 +168,59 @@
           </div>
         </div>
       </div>
-    </main>
-    <footer>
-      <div>
-        <ul>
-          <li class="titre"><h3>Contacts</h3></li>
-          <li><p>congres@issoudun.fr</p></li>
-          <li><p>Fax: 0254033267</p></li>
-          <li><p>Tel: +33 2 54 03 32 61</p></li>
-          <li><p>Centre de Congrès "Champs Élysées"</p></li>
-          <li><p>Boulevard Roosevelt</p></li>
-          <li><p>BP 150</p></li>
-          <li><p>36105 Issoudun</p></li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li class="titre"><h3>À découvrir sur Issoudun</h3></li>
-          <li><a href="https://cinemaelysees.com/">Cinéma Les Élysées</a></li>
-          <li><a href=" https://www.biptv.tv/">Bip TV</a></li>
-          <li><a href="https://www.ccacissoudun.tv/">Centre culturel Albert Camus</a></li>
-          <li><a href="https://www.museeissoudun.tv/">Musée de l'hospice Saint Roch</a></li>
-          <li><a href="http://www.issoudun.fr/">Ville d'Issoudun</a></li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li><h3><a class="titre" href="pages/legalnotice.html">Mentions légales</a></h3></li>
-        </ul>
-      </div>
-    </footer>
-    <script src="../scripts/slider.js"></script>
-    <script src="../scripts/nav.js"></script>
-  </body>
+    </div>
+  </main>
+  <footer>
+    <div>
+      <ul>
+        <li class="titre">
+          <h3>Contacts</h3>
+        </li>
+        <li>
+          <p>congres@issoudun.fr</p>
+        </li>
+        <li>
+          <p>Fax: 0254033267</p>
+        </li>
+        <li>
+          <p>Tel: +33 2 54 03 32 61</p>
+        </li>
+        <li>
+          <p>Centre de Congrès "Champs Élysées"</p>
+        </li>
+        <li>
+          <p>Boulevard Roosevelt</p>
+        </li>
+        <li>
+          <p>BP 150</p>
+        </li>
+        <li>
+          <p>36105 Issoudun</p>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li class="titre">
+          <h3>À découvrir sur Issoudun</h3>
+        </li>
+        <li><a href="https://cinemaelysees.com/">Cinéma Les Élysées</a></li>
+        <li><a href=" https://www.biptv.tv/">Bip TV</a></li>
+        <li><a href="https://www.ccacissoudun.tv/">Centre culturel Albert Camus</a></li>
+        <li><a href="https://www.museeissoudun.tv/">Musée de l'hospice Saint Roch</a></li>
+        <li><a href="http://www.issoudun.fr/">Ville d'Issoudun</a></li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li>
+          <h3><a class="titre" href="pages/legalnotice.html">Mentions légales</a></h3>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="../scripts/slider.js"></script>
+  <script src="../scripts/nav.js"></script>
+</body>
+
 </html>

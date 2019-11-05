@@ -39,73 +39,88 @@
       </nav>
     </header>
     <main class="container">
-      <div class="square"></div>
-      <div class="slider">
-        <div class="carousel-container">
-            <button id="prevBtn"></button>
-            <button id="nextBtn"></button>
-            <div class="carousel-slide">
-                <img src="../images/hall/hall9.jpg" id="lastClone" alt="Hall d'Accueil"> <!-- METTRE UNEDEUXIEME FOIS LA DERNIERE IMAGE ICI-->
-                <img src="../images/hall/hall1.jpg" alt="Hall d'Accueil">
-                <img src="../images/hall/hall2.jpg" alt="Hall d'Accueil">
-                <img src="../images/hall/hall3.JPG" alt="Hall d'Accueil"> <!-- Ne pas oublier de changer SRC enfonction de la position de ce fichier et du dossier de référence -->
-                <img src="../images/hall/hall4.JPG" alt="Hall d'Accueil">
-                <img src="../images/hall/hall5.jpg" alt="Hall d'Accueil">
-                <img src="../images/hall/hall9.jpg" alt="Hall d'Accueil">
-                <img src="../images/hall/hall1.jpg" id="firstClone" alt="Hall d'Accueil"> <!-- METTRE UNEDEUXIEME FOIS LA PREMIERE IMAGE ICI-->
-            </div>
-        </div>
-      </div>
-      <div class="presentation" id="hall">
-        <div class="fiche">
-          <h2>HALL D'ACCUEIL</h2>
-          <div class="features">
-              <!-- TAILLE -->
-            <div class="specs">
-              <div class="objects" id="regle">
-                <img src="../icons/Regle.svg">
+      <div class="whole-card-container">
+          <div class="slideshow-container">
+              <div class="mySlides">
+                <img class="slider-img" src="../images/hall/hall1.jpg" alt="hallImage">
               </div>
-              <div class="objects">
+              <div class="mySlides">
+                  <img class="slider-img" src="../images/hall/hall2.jpg" alt="hallImage">
+                </div>
+              <div class="mySlides">
+                  <img class="slider-img" src="../images/hall/hall3.jpg" alt="hallImage">
+                </div>
+              <div class="mySlides">
+                  <img class="slider-img" src="../images/hall/hall4.jpg" alt="hallImage">
+                </div>
+              <div class="mySlides">
+                  <img class="slider-img" src="../images/hall/hall9.jpg" alt="hallImage">
+                </div>
+      
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+            </div>
+            <br>
+      
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+          <div class="presentation" id="hall">
+            <div class="fiche">
+              <h2>HALL D'ACCUEIL</h2>
+              <div class="features">
+                  <!-- TAILLE -->
+                <div class="specs">
+                  <div class="objects" id="regle">
+                    <img src="../icons/Regle.svg">
+                  </div>
+                  <div class="objects">
+                    <p>
+                        315 mètres carrés
+                    </p>
+                  </div>
+                </div>
+                <!-- LUMIÈRE -->
+                <div class="specs">
+                  <div class="objects">
+                    <img src="../icons/sun.svg">
+                  </div>
+                  <div class="objects">
+                    <p>
+                        Lumière naturelle
+                    </p>
+                  </div>
+                </div>
+                <!-- WIFI -->
+                <div class="specs">
+                  <div class="objects">
+                    <img src="../icons/Internet.svg">
+                  </div>
+                  <div class="objects">
+                    <p>
+                      WIFI
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="info">
                 <p>
-                    315 mètres carrés
+                    Accès à toutes les salles.
+                </p>
+                <p>
+                    Hall d’exposition, banque d’accueil, vestiaires, bornes signalétiques, ascenseur.
                 </p>
               </div>
-            </div>
-            <!-- LUMIÈRE -->
-            <div class="specs">
-              <div class="objects">
-                <img src="../icons/sun.svg">
-              </div>
-              <div class="objects">
-                <p>
-                    Lumière naturelle
-                </p>
-              </div>
-            </div>
-            <!-- WIFI -->
-            <div class="specs">
-              <div class="objects">
-                <img src="../icons/Internet.svg">
-              </div>
-              <div class="objects">
-                <p>
-                  WIFI
-                </p>
+              <div class="button">
+                <a href="/pages/book.html">RÉSERVER</a>
               </div>
             </div>
           </div>
-          <div class="info">
-            <p>
-                Accès à toutes les salles.
-            </p>
-            <p>
-                Hall d’exposition, banque d’accueil, vestiaires, bornes signalétiques, ascenseur.
-            </p>
-          </div>
-          <div class="button">
-            <a href="/pages/book.html">RÉSERVER</a>
-          </div>
-        </div>
       </div>
     </main>
     <footer>

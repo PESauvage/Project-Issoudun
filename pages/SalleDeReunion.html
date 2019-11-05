@@ -39,65 +39,81 @@
       </nav>
     </header>
     <main class="container">
-      <div class="square"></div>
-      <div class="slider">
-        <div class="carousel-container">
-            <button id="prevBtn"></button>
-            <button id="nextBtn"></button>
-            <div class="carousel-slide">
-                <img src="../images/SallesDeReunion/reunion6.jpg" id="lastClone" alt="Salle de réunion"> <!-- METTRE UNEDEUXIEME FOIS LA DERNIERE IMAGE ICI-->
-                <img src="../images/SallesDeReunion/reunion2.jpg" alt="Salle de réunion">
-                <img src="../images/SallesDeReunion/reunion3.jpg" alt="Salle de réunion"> <!-- Ne pas oublier de changer SRC enfonction de la position de ce fichier et du dossier de référence -->
-                <img src="../images/SallesDeReunion/reunion4.jpg" alt="Salle de réunion">
-                <img src="../images/SallesDeReunion/reunion5.jpg" alt="Salle de réunion">
-                <img src="../images/SallesDeReunion/reunion6.jpg" alt="Salle de réunion">
-                <img src="../images/SallesDeReunion/reunion2.jpg" id="firstClone" alt="Salle de réunion"> <!-- METTRE UNEDEUXIEME FOIS LA PREMIERE IMAGE ICI-->
+      <div class="whole-card-container">
+          <div class="slideshow-container">
+              <div class="mySlides">
+                <img class="slider-img" src="../images/SallesDeReunion/reunion1.jpg" alt="SalleDeReunionImage">
+              </div>
+              <div class="mySlides">
+                  <img class="slider-img" src="../images/SallesDeReunion/reunion2.jpg" alt="SalleDeReunionImage">
+                </div>
+              <div class="mySlides">
+                  <img class="slider-img" src="../images/SallesDeReunion/reunion3.jpg" alt="SalleDeReunionImage">
+                </div>
+              <div class="mySlides">
+                  <img class="slider-img" src="../images/SallesDeReunion/reunion4.jpg" alt="SalleDeReunionImage">
+                </div>
+              <div class="mySlides">
+                  <img class="slider-img" src="../images/SallesDeReunion/reunion5.jpg" alt="SalleDeReunionImage">
+                </div>
+      
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
             </div>
-        </div>
-      </div>
-      <div class="presentation" id="reu">
-        <div class="fiche">
-          <h2>SALLES DE RÉUNIONS</h2>
-          <div class="features">
-            <div class="specs">
-              <div class="objects">
-                <img src="../icons/Personnes.svg">
+            <br>
+      
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        <div class="presentation" id="reu">
+          <div class="fiche">
+            <h2>SALLES DE RÉUNION</h2>
+            <div class="features">
+              <div class="specs">
+                <div class="objects">
+                  <img src="../icons/Personnes.svg">
+                </div>
+                <div class="objects">
+                  <p>
+                    20 ou 50
+                  </p>
+                </div>
               </div>
-              <div class="objects">
-                <p>
-                  20 ou 50
-                </p>
+              <div class="specs">
+                <div class="objects">
+                  <img src="../icons/Internet.svg">
+                </div>
+                <div class="objects">
+                  <p>
+                    WIFI
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="specs">
-              <div class="objects">
-                <img src="../icons/Internet.svg">
-              </div>
-              <div class="objects">
-                <p>
-                  WIFI
-                </p>
-              </div>
+            <div class="info">
+              <p>
+                Deux salles : 20 et 50 places.
+              </p>
+              <p>
+                Possibilité de deux salles supplémentaires dans la salle de réception.
+              </p>
+              <p>
+                Équipées de :
+              </p>
+              <ul>
+                <li>Paperboards</li>
+                <li>Écrans</li>
+                <li>Vidéoprojecteur (sur demande)</li>
+              </ul>
             </div>
-          </div>
-          <div class="info">
-            <p>
-              Deux salles : 20 et 50 places.
-            </p>
-            <p>
-              Possibilité de deux salles supplémentaires dans la salle de réception.
-            </p>
-            <p>
-              Équipées de :
-            </p>
-            <ul>
-              <li>Paperboards</li>
-              <li>Écrans</li>
-              <li>Vidéoprojecteur (sur demande)</li>
-            </ul>
-          </div>
-          <div class="button">
-            <a href="/pages/book.html">RÉSERVER</a>
+            <div class="button">
+              <a href="/pages/book.html">RÉSERVER</a>
+            </div>
           </div>
         </div>
       </div>
