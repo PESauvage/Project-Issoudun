@@ -14,11 +14,7 @@ body{
   font-weight: 500;
   width:100%;
   height:100%;
-}
-
-
-main{
-  padding-top: 0px;
+  top:0;
 }
 
 .column{
@@ -31,6 +27,10 @@ main{
   margin:0 auto;
   display:flex;
 
+}
+
+main{
+  padding-top: 0px;
 }
 
 /*BLOC1*/
@@ -67,7 +67,7 @@ main{
 }
 
 .textTitle{
-  font-family: 'CaviarDreams';
+  font-family: 'CaviarDreams','helvetica';
   margin-top:6%;
   border-left-style: solid;
   border-left-color: #FF9300;
@@ -93,22 +93,20 @@ main{
 }
 
 form.formContainer{
-  padding-top: 40px;
   padding-left: 50px;
   padding-right: 60px;
-  padding-bottom: 40px;
   width:100%;
   height:100%;
   background-color: #f2f2f2;
-  border-radius: 5%;
+  border-radius: 15px;
   display:flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 80px;
+  margin-bottom:20vh;
 }
 
 .flexbox{
-  padding-bottom :20px;
+  padding-bottom :5px;
 }
 
 select#subject{
@@ -133,12 +131,105 @@ div.item{
   width:100%;
 }
 
+label{
+  width:100%;
+}
 
-  label{
-    width:50%;
-    margin-bottom: 10px;
-  }
+.book{
+  display:flex;
+  flex-direction:column;
+}
 
+.resto input{
+  margin:1%;
+}
+
+.choice{
+justify-content: space-between;
+margin-top:2%;
+}
+
+.restoChoice{
+  display:flex;
+}
+
+.secondChoices{
+  display: flex;
+}
+
+/* Customize the label (the container) */
+.choiceContainer {
+  display: flex;
+  position: relative;
+  padding-left: 5%;
+  margin-bottom: 3%;
+  cursor: pointer;
+  font-size:70%;
+  color: #707070;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.choiceContainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90%;
+  width: 5.8%;
+  background-color: white;
+  border-color:#707070;
+}
+
+.secondChoices .checkmark{
+  width: 9%;
+}
+
+/* On mouse-over, add a grey background color */
+.choiceContainer:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.choiceContainer input:checked ~ .checkmark {
+  background-color: #FF9300;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.choiceContainer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.choiceContainer .checkmark:after {
+  left: 30%;
+  top: 4%;
+  width: 25%;
+  height: 60%;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
 
 /*Fourth Flexbox*/
 div.fourthFlexbox{
@@ -182,6 +273,15 @@ input[type=submit]{
 
 @media screen and (min-width:768px) and (max-width:1024px)
 {
+
+  main{
+  padding-top: 100px;
+  }
+
+  .textTitle{
+    font-size:120%;
+  }
+
   .container{
     width:768px;
     flex-wrap: wrap;
@@ -195,7 +295,7 @@ input[type=submit]{
 
   .smallText{
     margin-top:3%;
-    width:70%;
+    width:80%;
   }
 
   .blocTwo{
@@ -203,20 +303,30 @@ input[type=submit]{
   }
 
   form.formContainer{
-    width:70%;
+    width:90%;
+    margin-bottom: 20%;
   }
+
 
 }
 
 @media screen and (max-width:768px)
 {
-    .container{
-      margin: 10px;;
-      width:100%;
-      flex-wrap: wrap;
-      align-items: center;
-      flex-direction: column;
-    }
+
+  main{
+  padding-top: 100px;
+  }
+
+  .textTitle{
+      font-size:120%;
+  }
+
+  .container{
+    width:100%;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
 
     .arrow img{
       display:none;
@@ -224,42 +334,21 @@ input[type=submit]{
 
     .smallText{
       margin-top:3%;
-      width:50%;
+      width:66%;
     }
 
     .blocTwo{
       margin-top:4%;
-      justify-content:flex-start;
-    }
-
-    form.formContainer{
-      width:100%;
-      margin-left:10px;
     }
 
     .item{
       flex-direction: column;
     }
+
+    form.formContainer{
+      width:70%;
+    }
+
 }
 
-.sent{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20%;
-  font-size: 250%;
-  font-family: "CaviarDreams" "helvetica";
-  color: white;
-}
-
-.backToMain{
-  color:white;
-  text-decoration: none;
-  background-color: #FF9300;
-  font-size: 50%;
-  margin:1%;
-  padding: 1%;
-  text-transform: uppercase;
-}
 /*FIN FORMULAIRE BOOK*/
