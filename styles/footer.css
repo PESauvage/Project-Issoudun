@@ -10,7 +10,6 @@ footer h3,
 footer p,
 footer a {
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 footer {
@@ -22,8 +21,7 @@ footer {
   flex-flow: row nowrap;
   color: rgb(0, 0, 0, 0.6);
   font-family: Helvetica;
-  justify-content: space-around;
-  align-items: stretch;
+  justify-content: flex-start;
   bottom: 0;
 }
 
@@ -72,22 +70,47 @@ footer h2 {
   footer {
     width: 100vw;
     height: 40vh;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 0px;
     align-items: flex-start;
   }
 
   footer div {
-    width: 70%;
+    width: 100%;
   }
 
   footer h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
     left: 0;
   }
 
   footer li {
-    font-size: 1.3rem;
+    font-size: 1rem;
+  }
+}
+
+
+@media screen and (max-width:700px) {
+  footer {
+    width: 100vw;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px;
+    align-items: flex-start;
+  }
+
+  footer div {
+    width: 190px;
+    margin-top:30px;
+  }
+
+  footer h3 {
+    font-size: 1rem;
+    left: 0;
+  }
+
+  footer li {
+    font-size: 1rem;
   }
 }
