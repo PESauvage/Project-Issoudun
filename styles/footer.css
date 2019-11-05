@@ -1,118 +1,93 @@
-html{
-  heigth:100vh;
+html {
+  height: 100vh;
 }
 
-footer, footer div, footer ul, footer li, footer h3, footer p, footer a{
-    margin: 0 auto;
-    box-sizing: border-box;
+footer,
+footer div,
+footer ul,
+footer li,
+footer h3,
+footer p,
+footer a {
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-footer{
-    margin-top: 100px;
-    min-height: 8vh;
-    background-color:rgb(235, 235, 235);
-    width: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    color:rgb(0, 0, 0, 0.6);
-    font-family: Helvetica;
-    justify-content: space-around;
-    align-items: stretch;
-    bottom:0;
+footer {
+  margin-top: 100px;
+  min-height: 8vh;
+  background-color: rgb(235, 235, 235);
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  color: rgb(0, 0, 0, 0.6);
+  font-family: Helvetica;
+  justify-content: space-around;
+  align-items: stretch;
+  bottom: 0;
 }
 
-footer div{
-    display: flex;
-    padding: 10px 10px;
-    align-items: flex-start;
+footer div {
+  display: flex;
+  align-items: flex-start;
 }
 
-footer li{
-    list-style-type: none;
+footer li {
+  list-style-type: none;
 }
 
-footer a{
-    text-decoration: none;
-    color: rgb(0, 0, 0, 0.6);
+footer a {
+  text-decoration: none;
+  color: rgb(0, 0, 0, 0.6);
 }
 
-footer a:hover{
-    text-decoration: none;
-    color: rgb(0, 0, 0, 0.9);
-    font-weight: bold;
+footer a:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0, 0.9);
+  font-weight: bold;
 }
 
-h3 a{
-  color:rgb(0, 0, 0, 0.9);
+h3 a {
+  color: rgb(0, 0, 0, 0.9);
 }
 
-h3 a:hover{
-  color:rgb(0, 0, 0, 0.6);
+h3 a:hover {
+  color: rgb(0, 0, 0, 0.6);
 }
 
-footer ul{
-    padding-inline-start: 0;
-}
-
-footer h3{
-  font-size:90%;
+footer h3 {
+  font-size: 90%;
   text-transform: uppercase;
-  font-weight:1000;
+  font-weight: 1000;
   padding-bottom: 5%;
-  padding-top:4%;
-  color:rgb(0, 0, 0, 0.9);
+  padding-top: 4%;
+  color: rgb(0, 0, 0, 0.9);
 }
 
-footer h2{
-    font-size: 40%;
+footer h2 {
+  font-size: 40%;
 }
 
-@media screen and (max-width:1024px)
-{
-    footer{
-        width: 100%;
-        flex-direction: column;
-        margin: 0px;
-        display: flex;
-        align-items: center;
-    }
-
-    footer div{
-        width: 70%;
-    }
-
-      footer h3{
-      font-size: 120%;
-    }
-
-      footer li{
-      font-size: 50%;
-    }
-}
-
-
-@media screen and (max-width:768px)
-{
-
-  footer{
-      width: 100%;
-      flex-direction: column;
-      margin: 0px;
-      display: flex;
-      align-items: center;
+@media screen and (max-width:1024px) {
+  footer {
+    width: 100vw;
+    height: 40vh;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    align-items: flex-start;
   }
 
-  footer div{
-      width: 70%;
+  footer div {
+    width: 70%;
   }
 
-  footer h3{
-    font-size: 70%;
+  footer h3 {
+    font-size: 1.3rem;
+    left: 0;
   }
 
-  footer li{
-    font-size: 50%;
+  footer li {
+    font-size: 1.3rem;
   }
-
-
 }
