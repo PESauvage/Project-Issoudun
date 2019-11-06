@@ -21,18 +21,86 @@ main {
   height: 100vh;
   display: flex;
   justify-content: center;
+  flex-direction:column;
   align-items: center;
   background-image: url(../images/homeBackground.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
 
+
+.hero p{
+  color:white;
+  font-family:'Caviar Dreams' 'Helvetica'; 
+  text-transform: uppercase;
+  text-align:center;
+  font-size:90%;
+  margin:5vh;
+  opacity:1;
+  will-change: opacity;
+
+  animation-name:text-hero-animation;
+  animation-duration:4s;
+  animation-iteration-count: 1;
+}
+
+@keyframes text-hero-animation{
+  0%  {opacity:0;}
+  100%{opacity:1;}
 }
 
 .CdC {
-  width: 40vw;
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  background: pink;
 }
+
+.Cdc .logo-img{
+  display:flex;
+  justify-content: center;
+  width:80%;
+  height:auto;
+  object-fit: contain;
+}
+
+.Cdc .logo-left{
+  animation-name:logo-left-animation;
+  animation-duration:3s;
+  animation-iteration-count:1;
+}
+
+@keyframes logo-left-animation{
+  0%  {opacity:0; transform:translateY(-5vh);}
+  100%{opacity:1; transform:translateY(0vh);}
+}
+
+.Cdc .logo-right{
+  animation-name:logo-right-animation;
+  animation-duration:3s;
+  animation-iteration-count:1;
+}
+
+@keyframes logo-right-animation{
+  0%  {opacity:0; transform:translateY(5vh);}
+  100%{opacity:1; transform:translateY(0vh);}
+}
+
+.Cdc .logo-text{
+  animation-name:logo-text-animation;
+  animation-duration:3s;
+  animation-iteration-count:1;
+  margin-left:0;
+}
+
+@keyframes logo-text-animation{
+  0%  {opacity:0; transform:translateY(5vh);}
+  100%{opacity:1; transform:translateY(0vh);}
+}
+
+
 
 .MainContainer .hero .btn {
   position: absolute;
@@ -178,7 +246,7 @@ div.title2 {
 
 .title h3,
 .title2 h3 {
-  font-family: 'CaviarDreams''Helvetica';
+  font-family: 'Caviar Dreams''Helvetica';
   width: 110%;
   font-size: 25px;
   padding-bottom: 5px;
@@ -546,53 +614,6 @@ div#forkSize h3 {
   text-decoration: none;
 }
 
-/*FOOTER*/
-
-footer,
-footer div,
-footer ul,
-footer li,
-footer h3,
-footer p,
-footer a {
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
-footer {
-  min-height: 8vh;
-  background-color: rgb(235, 235, 235);
-  width: 100%;
-  display: flex;
-  flex-flow: row nowrap;
-  color: rgb(0, 0, 0, 0.9);
-  font-family: Helvetica;
-  justify-content: space-around;
-  align-items: stretch;
-}
-
-footer div {
-  display: flex;
-  padding: 10px 10px;
-  align-items: flex-start;
-}
-
-footer li {
-  list-style-type: none;
-}
-
-footer a {
-  text-decoration: none;
-  color: rgb(0, 0, 0, 0.9);
-}
-
-footer ul {
-  padding-inline-start: 0;
-}
-
-footer h2 {
-  font-size: 20px;
-}
 
 @media screen and (max-width:1500px) {
   .cineText h2 {
@@ -640,10 +661,9 @@ footer h2 {
 
 @media screen and (max-width:1024px) {
 
-  .Cdc{
-    width:80vh;
+  .hero p{
+    font-size:120%;
   }
-
   .container-home {
     width: 670px;
   }
