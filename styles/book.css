@@ -8,7 +8,7 @@ body{
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-position:110%;
-  background-size: 100%;
+  background-size: cover;
   font-family: "Avenir", sans-serif;
   font-size: 100%;
   font-weight: 500;

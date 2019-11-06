@@ -15,11 +15,8 @@ main {
   margin: 0 auto;
 }
 
-.CdC {
-  width: 60%;
-}
-
 .hero {
+  position: relative;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -31,6 +28,10 @@ main {
   background-repeat: no-repeat;
   background-attachment: fixed;
 
+}
+
+.CdC {
+  width: 40vw;
 }
 
 .MainContainer .hero .btn {
@@ -436,10 +437,10 @@ div#forkSize h3 {
   margin-top: 12%;
 }
 
-.cinema h2 {
+.cineText h2 {
   color: white;
   margin-bottom: 1%;
-  font-size: 70px;
+  font-size: 40px;
   font-family: 'Caviar Dreams''helvetica';
 }
 
@@ -594,8 +595,8 @@ footer h2 {
 }
 
 @media screen and (max-width:1500px) {
-  .cinema h2 {
-    font-size: 49px;
+  .cineText h2 {
+    font-size: 40px;
   }
 
   .cinema p {
@@ -616,8 +617,8 @@ footer h2 {
 }
 
 @media screen and (max-width:1050px) {
-  .cinema h2 {
-    font-size: 38px;
+  .cineText h2 {
+    font-size: 3rem;
   }
 
   .cinema p {
@@ -638,8 +639,9 @@ footer h2 {
 }
 
 @media screen and (max-width:1024px) {
-  .hero{
-    height: 75vh;
+
+  .Cdc{
+    width:80vh;
   }
 
   .container-home {
@@ -674,9 +676,9 @@ footer h2 {
     margin-left: 12%;
   }
 
-  .cinema h2 {
+  .CineText h2 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2rem;
     text-align: center;
   }
 
