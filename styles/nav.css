@@ -153,6 +153,9 @@ nav{
     .disappear{
         visibility:visible;
     }
+    .nav-links a{
+        font-size:20px;
+    }
 }
 @keyframes navLinkFade{
     from{
