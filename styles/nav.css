@@ -149,7 +149,7 @@ nav{
     transform: translateX(0%);
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-height:1000px){
     .disappear{
         visibility:visible;
     }
