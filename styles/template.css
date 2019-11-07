@@ -28,7 +28,7 @@ h2 {
     position: absolute;
     left: 20px;
     top: -20px;
-    bottom: -20px;
+    bottom: 0px;
     --width: 50vw;
     width: var(--width);
     height: 110%;
@@ -160,7 +160,7 @@ h2 {
         left: calc(50% - 40vw);
         top: calc(50% - 35vh);
         width: 80vw;
-        height: 90vh;
+        height: 100vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
